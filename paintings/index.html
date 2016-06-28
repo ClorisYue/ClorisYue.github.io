@@ -29,7 +29,7 @@
 
     <!-- Title -->
     
-    <title>Paintings - Hexo</title>
+    <title>Paintings - Yue</title>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/reset.css">
@@ -105,21 +105,59 @@
 </header><!-- end header -->
 
 <!-- Main Content -->
-
-
 <section class="main clearfix">
+
+    <section class="top" style="background: url('http://placehold.it/1300x500');">
+        <div class="wrapper content_header clearfix">
+            <div class="work_nav">
+                <ul class="btn clearfix">
+                    <li><a href="/assets/projects/hexo-theme-magnetic/2013/12/25/videos/" class="previous" data-title="Videos"></a></li>
+                    <li><a href="/assets/projects/hexo-theme-magnetic/" class="grid" data-title="Portfolio"></a></li>
+                    <li><a href="/assets/projects/hexo-theme-magnetic/2013/12/25/tag-plugins/" class="next" data-title="Tag Plugins"></a></li>
+                </ul>
+            </div><!-- end work_nav -->
+            <h1 class="title">Gallery Post</h1>
+        </div>
+    </section><!-- end top -->
+
     <section class="wrapper">
-        <div class="content archives">
+        <div class="content">
+            <!-- Gallery -->
+            <div class="gallery-container">
+                <div class="picture-container">
+                    <a href="#" data-featherlight="/assets/projects/hexo-theme-magnetic/assets/train.jpg">
+                        <img src="/assets/projects/hexo-theme-magnetic/assets/train.jpg" class="img-thumbnail" />
+                    </a>
+                </div>
             
-            <ul class="archive-list">
-                
-                    <li>
-    <a href="/2016/06/28/hello-world/">Hello World</a>
-</li>
-                
-            </ul>
-        </div><!-- end content -->
-    </section>
+                <div class="picture-container">
+                    <a href="#" data-featherlight="/assets/projects/hexo-theme-magnetic/assets/station.jpg">
+                        <img src="/assets/projects/hexo-theme-magnetic/assets/station.jpg" class="img-thumbnail" />
+                    </a>
+                </div>
+            
+                <div class="picture-container">
+                    <a href="#" data-featherlight="/assets/projects/hexo-theme-magnetic/assets/desert.jpg">
+                        <img src="/assets/projects/hexo-theme-magnetic/assets/desert.jpg" class="img-thumbnail" />
+                    </a>
+                </div>
+            
+                <div class="picture-container">
+                    <a href="#" data-featherlight="/assets/projects/hexo-theme-magnetic/assets/eagle.jpg">
+                        <img src="/assets/projects/hexo-theme-magnetic/assets/eagle.jpg" class="img-thumbnail" />
+                    </a>
+                </div>
+            </div> <!--gallery container-->
+            <!-- Comments -->
+            <div>
+            <hr />
+            <h3>Comments:</h3>
+                <div id="disqus_thread">
+                    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                </div>
+            </div>
+        </div> <!-- Content -->
+    </section> <!-- wrapper -->
 </section><!-- end main -->
 
 
@@ -137,6 +175,18 @@
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 <!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'klugjo';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 </body>
