@@ -387,7 +387,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .main .gallery-container .picture-container{
-    width: 150px;
+    width: match-parent;
     float: left;
     margin-right: 30px;
 }
