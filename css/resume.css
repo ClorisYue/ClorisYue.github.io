@@ -1,0 +1,28 @@
+.bassicInfo {
+	 width:inherit; 
+	 text-align:center; 
+	 padding-top:10%; 
+	 padding-bottom:10%;
+}
+
+.cvtitle {
+	 color:#f63637;
+	 padding-left: 5%;
+}
+
+.edu {
+	 width:inherit; 
+	 padding:5% 10% 5% 10%;
+	 line-height: 1.5em;
+}
+
+.exp, .award, .others {
+	width: 90%;
+	padding: 5% 10% 5% 10%;
+}
+
+.edu p, .exp p, .award p, .others p{
+	color: #dbbbbb;
+    font-family: "raleway-regular", arial;
+    letter-spacing: 1px;
+}
