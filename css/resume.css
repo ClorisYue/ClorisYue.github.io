@@ -23,7 +23,7 @@
 }
 
 .exp, .award, .others {
-	width: 90%;
+	width: inherit;
 	padding: 3% 10% 3% 10%;
 	line-height: 1.5em;
 }
