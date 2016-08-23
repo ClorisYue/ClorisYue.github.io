@@ -124,9 +124,9 @@ h5         { font-weight: bolder }
         float: left;
         overflow: hidden;
         z-index: 9999;
-        border-right-style: solid;
+       /* border-right-style: solid;
         border-right-color: #f63637;
-        border-right-width: 5px;
+        border-right-width: 5px;*/
     }
 
     header .logo{
