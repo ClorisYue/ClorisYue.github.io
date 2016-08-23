@@ -28,12 +28,6 @@
 	line-height: 1.5em;
 }
 
-.edu p, .exp p, .award p, .others p{
-	color: #dbbbbb;
-    font-family: "raleway-regular", arial;
-    letter-spacing: 1px;
-}
-
 .mytext_g1, .mytext_gb1, .mytext_g2, mytext_gb2, .mytext_r1, .mytext_rb1 {
     font-family: "raleway-regular", arial;
     letter-spacing: 1px;
