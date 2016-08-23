@@ -4,7 +4,7 @@
 }
 
 .basicInfo {
-	 width:inherit; 
+	
 	 text-align:center; 
 	 vertical-align:middle;
 	 padding: 5% 10% 5% 10%;
@@ -17,13 +17,13 @@
 }
 
 .edu {
-	 width:inherit; 
+	 
 	 padding:3% 10% 3% 10%;
 	 line-height: 1.5em;
 }
 
 .exp, .award, .others {
-	width: inherit;
+	
 	padding: 3% 10% 3% 10%;
 	line-height: 1.5em;
 }
