@@ -15,7 +15,7 @@ a {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url('img/imgbox-spinner.gif') center center no-repeat;
+	background: url('../img/imgbox-spinner.gif') center center no-repeat;
 	cursor: pointer;
 	display: none;
 	z-index: 90;
@@ -62,7 +62,7 @@ a {
 	right: -15px;
 	height: 30px;
 	width: 30px;
-	background: url('img/imgbox-close.png') top left no-repeat;
+	background: url('../img/imgbox-close.png') top left no-repeat;
 	cursor: pointer;
 	outline: none;
 }
@@ -84,50 +84,50 @@ a {
 	left: 0;
 	top: -20px;
 	width: 100%;
-	background: url(img/imgbox-bg-n.png) repeat-x;
+	background: url(../img/imgbox-bg-n.png) repeat-x;
 }
 
 .imgbox-bg-ne {
 	right: -20px;
 	top: -20px;
-	background: url(img/imgbox-bg-ne.png) no-repeat;
+	background: url(../img/imgbox-bg-ne.png) no-repeat;
 }
 
 .imgbox-bg-e {
 	right: -20px;
 	top: 0;
 	height: 100%;
-	background: url(img/imgbox-bg-e.png) repeat-y;
+	background: url(../img/imgbox-bg-e.png) repeat-y;
 }
 
 .imgbox-bg-se {
 	right: -20px;
 	bottom: -20px;
-	background: url(img/imgbox-bg-se.png) no-repeat;
+	background: url(../img/imgbox-bg-se.png) no-repeat;
 }
 
 .imgbox-bg-s {
 	left: 0;
 	bottom: -20px;
 	width: 100%;
-	background: url(img/imgbox-bg-s.png) repeat-x;
+	background: url(../img/imgbox-bg-s.png) repeat-x;
 }
 
 .imgbox-bg-sw {
 	left: -20px;
 	bottom: -20px;
-	background: url(img/imgbox-bg-sw.png) no-repeat;
+	background: url(../img/imgbox-bg-sw.png) no-repeat;
 }
 
 .imgbox-bg-w {
 	left: -20px;
 	top: 0;
 	height: 100%;
-	background: url(img/imgbox-bg-w.png) repeat-y;
+	background: url(../img/imgbox-bg-w.png) repeat-y;
 }
 
 .imgbox-bg-nw {
 	left: -20px;
 	top: -20px;
-	background: url(img/imgbox-bg-nw.png) no-repeat;
+	background: url(../img/imgbox-bg-nw.png) no-repeat;
 }
