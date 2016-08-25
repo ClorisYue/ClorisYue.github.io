@@ -41,11 +41,6 @@
 	background: #FFF;
 	display: none;
 	z-index: 90;
-	
-	
-	max-width: 600px; 
-  	height:auto; 
-  	width:expression(this.width > 600 ? "600px" : this.width); 
 }
 
 .imgbox-img {
