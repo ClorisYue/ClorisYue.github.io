@@ -1351,26 +1351,34 @@ figure.highlight.sql .number,
 }
 
 /*mytext*/
-.mytext_g1, .mytext_gb1, .mytext_g2, mytext_gb2, .mytext_r1, .mytext_rb1 {
+.mytext_g1, .mytext_gb1, .mytext_g2, .mytext_gb2, .mytext_r1, .mytext_rb1, 
+.mytext_pbb1, .mytext_pb1,.mytext_pbb2, .mytext_pb2 {
     font-family: "raleway-regular", arial;
     letter-spacing: 1px;
 }
 
-.mytext_gb1, .mytext_gb2, .mytext_rb1 {
+.mytext_gb1, .mytext_gb2, .mytext_rb1, .mytext_pbb1, .mytext_pbb2 {
 	font-weight: bolder;
 }
 
-.mytext_g1, .mytext_gb1, .mytext_r1, .mytext_rb1 {
+.mytext_g1, .mytext_gb1, .mytext_r1, .mytext_rb1, .mytext_pbb1, .mytext_pb1 {
 	font-size: 1.0em;
+}
+
+.mytext_g2, .mytext_gb2, .mytext_pbb2, .mytext_pb2 {
+	font-size: 0.90em;
 }
 
 .mytext_g1, .mytext_gb1 {
 	color: #4b4848;
 }
 
+.mytext_pbb1, .mytext_pb1,.mytext_pbb2, .mytext_pb2{
+	color: #87caa1;
+}
+
 .mytext_g2, .mytext_gb2 {
 	color: #aaaaaa;
-	font-size: 0.90em;
 }
 
 .mytext_r1, .mytext_rb1 {
