@@ -1347,17 +1347,22 @@ figure.highlight.sql .number,
 }
 
 /*mytext*/
-.mytext_g1, .mytext_gb1, .mytext_g2, .mytext_gb2, .mytext_r1, .mytext_rb1, 
-.mytext_pbb1, .mytext_pb1,.mytext_pbb2, .mytext_pb2 {
+.mytext_g1, .mytext_gb1, .mytext_g2, .mytext_gb2, 
+.mytext_r1, .mytext_rb1, .mytext_pbb1, .mytext_pb1,
+.mytext_pbb2, .mytext_pb2, .mytext_bb1, .mytext_b1,
+.mytext_db1, .mytext_d1 {
     font-family: "raleway-regular", arial;
     letter-spacing: 1px;
 }
 
-.mytext_gb1, .mytext_gb2, .mytext_rb1, .mytext_pbb1, .mytext_pbb2 {
+.mytext_gb1, .mytext_gb2, .mytext_rb1, .mytext_pbb1, 
+.mytext_pbb2, .mytext_bb1, .mytext_db1 {
 	font-weight: bolder;
 }
 
-.mytext_g1, .mytext_gb1, .mytext_r1, .mytext_rb1, .mytext_pbb1, .mytext_pb1 {
+.mytext_g1, .mytext_gb1, .mytext_r1, .mytext_rb1, 
+.mytext_pbb1, .mytext_pb1, .mytext_bb1, .mytext_b1,
+.mytext_db1, .mytext_d1 {
 	font-size: 1.0em;
 }
 
@@ -1370,7 +1375,15 @@ figure.highlight.sql .number,
 }
 
 .mytext_pbb1, .mytext_pb1,.mytext_pbb2, .mytext_pb2{
-	color: #009966;
+    color: #009966;
+}
+
+.mytext_bb1, .mytext_b1 {
+    color: #448885;
+}
+
+.mytext_db1, .mytext_d1 {
+    color: #383e56;
 }
 
 .mytext_g2, .mytext_gb2 {
