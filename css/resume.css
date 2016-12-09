@@ -11,29 +11,13 @@
 	 line-height: 1.5em;
 }
 
-.cvtitle {
-	 color:#f63637;
-	 padding-left: 5%;
-}
 
-.edu {
-	 
-	 padding:3% 10% 3% 10%;
-	 line-height: 1.5em;
-}
-
-.exp, .award, .others {
-	
-	padding: 3% 10% 3% 10%;
-	line-height: 1.5em;
-}
-
-.mytext_g1, .mytext_gb1, .mytext_g2, mytext_gb2, .mytext_r1, .mytext_rb1 {
+.mytext_g1, .mytext_gb1, .mytext_r1, .mytext_rb1 {
     font-family: "raleway-regular", arial;
     letter-spacing: 1px;
 }
 
-.mytext_gb1, .mytext_gb2, .mytext_rb1 {
+.mytext_gb1, .mytext_rb1 {
 	font-weight: bolder;
 }
 
@@ -43,11 +27,6 @@
 
 .mytext_g1, .mytext_gb1 {
 	color: #4b4848;
-}
-
-.mytext_g2, .mytext_gb2 {
-	color: #aaaaaa;
-	font-size: 0.90em;
 }
 
 .mytext_r1, .mytext_rb1 {

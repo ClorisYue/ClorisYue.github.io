@@ -1606,3 +1606,7 @@ figure.highlight.yml .number,
     color: #0086b3;
 }
 
+header nav ul li:hover{
+    background-color: #f63637;
+    color: #ffffff;
+};
