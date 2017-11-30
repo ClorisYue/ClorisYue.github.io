@@ -1,80 +1,43 @@
-$(document).ready(function(){
+// scrollspy on navigation
+$('body').scrollspy({ target: '.header-content' })
 
+// function locateAt(e){  
+//     e =  document.getElementById(e);
+//     y = e.offsetTop;
+//     while(e=e.offsetParent){ y += e.offsetTop;}  
+//     y-=94;/*height of fixed navigation*/  
+//     window.scrollTo(0,y);  
+// }  
+// function back2home(e) {
+// 	window.location.href= "index.html?id=0";
+// }
 
+$(document).ready(function() {
+	// sid = location.search.slice(1);
+	// if (sid == "id=0") {
+	// 	locateAt('pres');
+	// };
+	$(window).on('scroll', function() {
+		var scroll = $(window).scrollTop();
+		if (scroll >= 50) {
+			$('#header').addClass('fixed');
+		} else {
+			$('#header').removeClass('fixed');
+		}
+	});
 
-    //mobile menu toggling
-    $("#menu_icon").click(function(){
-        $("header nav ul").toggleClass("show_menu");
-        $("#menu_icon").toggleClass("close_menu");
-        return false;
-    });
-
-    
-
-    //Contact Page Map Centering
-    var hw = $('header').width() + 50;
-    var mw = $('#map').width();
-    var wh = $(window).height();
-    var ww = $(window).width();
-
-    $('#map').css({
-        "max-width" : mw,
-        "height" : wh
-    });
-
-    if(ww>1100){
-         $('#map').css({
-            "margin-left" : hw
-        });
-    }
-
-   
-
-
-
-    //Tooltip
-    $("a").mouseover(function(){
-
-        var attr_title = $(this).attr("data-title");
-
-        if( attr_title == undefined || attr_title == "") return false;
-        
-        $(this).after('<span class="tooltip"></span>');
-
-        var tooltip = $(".tooltip");
-        tooltip.append($(this).data('title'));
-
-         
-        var tipwidth = tooltip.outerWidth();
-        var a_width = $(this).width();
-        var a_hegiht = $(this).height() + 3 + 4;
-
-        //if the tooltip width is smaller than the a/link/parent width
-        if(tipwidth < a_width){
-            tipwidth = a_width;
-            $('.tooltip').outerWidth(tipwidth);
-        }
-
-        var tipwidth = '-' + (tipwidth - a_width)/2;
-        $('.tooltip').css({
-            'left' : tipwidth + 'px',
-            'bottom' : a_hegiht + 'px'
-        }).stop().animate({
-            opacity : 1
-        }, 200);
-       
-
-    });
-
-    $("a").mouseout(function(){
-        var tooltip = $(".tooltip");       
-        tooltip.remove();
-    });
-
+	var nav = $('nav[role="navigation"]');
+	// navigation on mobile view
+	$('.nav-toggle').on('click', function() {
+		$(this).toggleClass('nav-close');
+		nav.toggleClass('open');
+		return false;
+	});	
+	nav.find('a').on('click', function() {
+		$('.nav-toggle').toggleClass('nav-close');
+		nav.toggleClass('open');
+	});
 
 });
 
-
-
-
-
+//TODO send message

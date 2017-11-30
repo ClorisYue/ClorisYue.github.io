@@ -1,293 +1,188 @@
-<!DOCTYPE html>
+<!doctype html>
 
-<html lang="en">
-
-<html lang="zh-cn">
-
-<!-- Head tag -->
-
+<html lang="eng">
 <head>
-
-    <meta charset="utf-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-
-    <!--Description-->
-
-    <!--Author-->
-     <meta name="author" content="Cloris Yue">
-
-    <!--Open Graph Title-->
-
-
-    <!--Open Graph Site Name-->
-
-
-    <meta property="og:site_name" content="Yue's portfolio"/>
-
-
-    <!--Page Cover-->
-
-
-    <meta property="og:image" content="undefined"/>
-
-
-    <!-- Title -->
-
-    <link rel="icon" href="/img/icon.ico">
-
-    <title>Yue's portfolio</title>
-
-
-    <!-- Custom CSS -->
-
-
-    <link rel="stylesheet" href="/css/reset.css">
-
-    <link rel="stylesheet" href="/css/main.css">
-
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-
-
-
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-
-
-    <!--[if lt IE 9]>
-
-
-
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-
-
-
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-
-
-
-    <![endif]-->
-
-
-
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Yue Wang">
+	<title>Yue Wang's Portfolio</title>
+	<link rel="shortcut icon" href="img/icons/wy.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
-
-
 <body>
+	<header id="header">
+		<div class="header-content clearfix"> 
+			<a class="logo" href="index.html"><img src="img/icons/wy.png" alt="logo"></a>
+	      	<nav class="navigation nav navbar-nav" role="navigation">
+		        <ul class="nav-items theme-text">
+		          <li class="active"><a href="#intro">It's Me</a></li>
+		          <!-- <li><a href="javascript:void(0)" onclick="locateAt('works')">Works</a></li> -->
+		          <li><a href="#works">Works</a> </li>
+		          <li><a href="#paintings">Paintings</a></li>
+		          <li><a href="#contact">Contact</a></li>
+		        </ul>
+	        </nav>
+	        <a href="#" class="nav-toggle">Menu<span></span></a> 
+	    </div>
+	</header>
+
+	<div data-spy="scroll" data-target=".header-content">
+		<section class="container intro section-layout" id="intro">
+			<div class="row">
+				<div class="col-md-8">
+					<h2>Hi, I'm <span class="theme-text">Yue!</span></h2>
+					<h2>UX Designer</h2>
+					<h4><a href="WangYue.pdf">View Resume</a></h4>
+	                <h4>Love to create <span class="theme-text">thoughtful, helpful, and pleasing</span> user experience and interfaces, combing <span class="theme-text">passion of design and background of software engineering.</span></h4>
+				</div>
+				<div class="col-md-4">
+					<img src="img/headR.png" alt="">
+				</div>
+			</div>
+		</section>
 
 
+		<section class="container works section-layout" id="works">
+			<div class="row">
+				<div class="col-md-4">
+					<h3>Works</h3>
+					<p>Including -- <br>UX Design & Research <br> Contextual Inquiry <br> Web Design & Development <br> Graphic Design</p>
+				</div>
+				<div class="col-md-4 work-item">
+					<a href ="works/slideNote.html">
+						<img src="img/sn480.jpg" alt="SlideNote UX Design">
+						<div class="caption">
+		                    <div class="work_title">
+		                        <h1>SlideNote 幻记<br>
+		                        Slides editing & notes taking</h1>
+		                    </div>
+		                </div>
+					</a>
+				</div>	
+				<div class="col-md-4 work-item">
+					<a href="works/MGym.html" class="disabled"><img src="img/mgym480.jpg" alt="MGym UX Research & Design">
+						<div class="caption">
+		                    <div class="work_title">
+		                        <h1>MGym<br>
+		                        UX Research & Design</h1>
+		                    </div>
+		                </div>
+					</a>
+				</div>					
+	
+			</div>
+			<div class="row">
+				<div class="col-md-4 work-item">
+					<a href="works/eccats.html"><img src="img/img1.jpg" alt="ECCATS Web Design & Development">
+						<div class="caption">
+		                    <div class="work_title">
+		                        <h1>ECC-ATS<br>
+		                        Web Design & Development</h1>
+		                    </div>
+		                </div>
+					</a>
+				</div>
+				<div class="col-md-4 work-item">
+					<a href="works/newsCenter.html"><img src="img/nc480.jpg" alt="News Center Visual Design">
+						<div class="caption">
+		                    <div class="work_title">
+		                        <h1>SMIE News Center<br>
+		                        Visual Design</h1>
+		                    </div>
+		                </div>
+					</a>
+				</div>
+				<div class="col-md-4 work-item">
+					<a href="works/its.html"><img src="img/img1.jpg" alt="ITS contextual inquiry">
+						<div class="caption">
+		                    <div class="work_title">
+		                        <h1>ITS Teaching&Learning<br>
+		                        Contextual Inquiry</h1>
+		                    </div>
+		                </div>
+					</a>
+				</div>
+			</div>
+		</section>
 
+	<section class="container paintings section-layout" id="paintings">
+		<div class="row">
+			<div class="col-md-4">
+				<h3>Paintings</h3>
+				<h4> <a href="paintings.html">View more</a> <br> Love painting & handicrafts. </h4>
+				<p>Sketch <br> Watercolor <br> Color pencil ...</p>
+			</div>
+			<div id="myCarousel" class="carousel slide col-md-8">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>   
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/img1.jpg" alt="First slide">
+					</div>
+					<div class="item">
+						<img src="img/nc480.jpg" alt="Second slide">
+					</div>
+					<div class="item">
+						<img src="img/img1.jpg" alt="Third slide">
+					</div>
+				</div>
+				<a class="carousel-control left" href="#myCarousel" 
+				   data-slide="prev">&lsaquo;</a>
+				<a class="carousel-control right" href="#myCarousel" 
+				   data-slide="next">&rsaquo;</a>
+			</div> 
 
+		</div>	
+	</section>
 
-<!-- Menu -->
+	<section class="container contact section-layout" id="contact">
+		<div class="row">
+			<div class="col-md-4">
+				<h4>Say hi by email: <a href="mailto:wwyue@umich.edu"> wwyue@umich.edu</a></h4>
+				<h4>Or message me ^ - ^</h4>
+			</div>
+		    <form class="col-md-8 contact-form" id="form">
+		      <div class="form-group col-md-6">
+		         <label class="label" for="name">Name</label>
+		         <input id="name" class="input-text" type="text" required>
+		      </div>
+		      <div class="form-group col-md-6">
+		         <label class="label" for="email">E-mail</label>
+		         <input id="email" class="input-text" type="email" required>
+		      </div>
+		      <div class="form-group col-md-12">
+		         <label class="label" for="message">Message</label>
+		         <textarea id="message" rows="3" class="input-text" required></textarea>
+		      </div>
+		      <div class="form-group col-md-12">
+		         <input class="submit-btn" type="submit" value="Submit">
+		      </div>
+		   </form>
 
-
-
-<!-- Navigation -->
-
-
-<header>
-
-
-    <div class="logo">
-
-        <a href="/">Yue's portfolio</a>
-
-    </div><!-- end logo -->
-
-
-    <div id="menu_icon"></div>
-
-
-
-    <nav>
-
-        <ul>
-
-            <li>
-
-                <a href="/resume.html">Resume</a>
-
-            </li>
-
-            <li>
-
-                <a href="/">Works</a>
-
-            </li>
-
-
-            <li>
-
-                <a href="/paintings.html">Paintings</a>
-
-
-            </li>
-
-            <li>
-
-                <a href="https://drive.google.com/file/d/0B_-Px6BrYkbHTFhDdFRBNjR0N1U/view?usp=sharing" target="_blank">Download Portfolio</a>
-
-
-            </li>
+		</div>
+	</section>
+	</div>
+	<footer class="footer">
+		<ul >
+            <li><a target="blank" href="https://www.instagram.com/_yuewang_"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a target="blank" href="https://www.linkedin.com/in/yue-wang-065993128/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a target="blank" href="https://www.facebook.com/profile.php?id=100014087980506"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        	<li><a target="blank" href="https://github.com/ClorisYue"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 
         </ul>
-
-
-
-    </nav><!-- end navigation menu -->
-
-
-    <div class="footer clearfix">
-
-
-
-        <ul class="social clearfix">
-
-                <li><a></a></li>
-                
-                <li><a href="https://github.com/ClorisYue/" class="google" target="_blank" data-title="Github"></a></li>
-                
-                <li><a href="http://weibo.com/2869237270/profile"  class="behance" target="_blank" data-title="Weibo"></a></li>
-
-        </ul><!-- end social -->
-
-
-
-
-        <div class="rights">
-
-
-
-            <p>Copyright &copy 2016 yue.</p>
-
-
-
-        </div><!-- end rights -->
-
-
-
-    </div ><!-- end footer -->
-
-
-
-</header><!-- end header -->
-
-
-
-
-
-<!-- Main Content -->
-
-
-
-<section class="main clearfix">
-        
-        <div class="work">
-            <a href="/works/slidenote.html">
-                <img src="/img/works/sn/sn450.jpg" class="media" alt=""/>
-                <div class="caption">
-                    <div class="work_title">
-                        <h1>SlideNote 幻记<br>
-                        Slides editing & notes taking</h1>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="work">
-            <a href="/works/paotu.html">
-                <img src="/img/works/pt/paotu450.jpg" class="media" alt=""/>
-                <div class="caption">
-                    <div class="work_title">
-                        <h1>Pao Tu 跑图<br>
-                        Combination of running & creation</h1>
-                    </div>
-                </div>
-            </a>
-        </div>
-        
-
-        <div class="work">
-            <a href="/works/microdoc.html">
-                <img src="/img/works/doc/dr450.jpg" class="media" alt=""/>
-                <div class="caption">
-                    <div class="work_title">
-                        <h1>MicroDoctor 微医生<br>
-                        Students' online health management system</h1>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-
-
-        <div class="work">
-            <a href="/works/ontheway.html">
-                <img src="/img/works/otw/otw450.png" class="media" alt=""/>
-                <div class="caption">
-                     <div class="work_title">
-                        <h1>On the way APP<br>
-                            Keep you company and safe</h1>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-
-        <div class="work">
-
-            <a href="/works/nc.html">
-
-                <img src="/img/works/nc/nc450.jpg" class="media" alt=""/>
-
-                <div class="caption">
-                    <div class="work_title">
-                        <h1>SMIE News Center<br>
-                        SMIE 新闻中心</h1>
-                    </div>
-
-                </div>
-            </a>
-
-        </div>
-
-</section>
-
-
-
-
-
-
-
-<!-- After footer scripts -->
-
-
-<!-- jQuery -->
-
-
-
-<script src="/js/jquery.js"></script>
-
-
-
-<!-- Custom Code -->
-
-
-
-<script src="/js/main.js"></script>
-
-
-
+         <p class="copy-right">Designed & coded &copy; Yue Wang 2017</p>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
 </body>
-
-
-
 </html>
-
-
-

@@ -1,0 +1,41 @@
+/**
+	general
+**/
+.work-detail-title a{
+	line-height: 56px;
+}
+.work-detail-footer {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+.work-detail-footer a{
+	color: #484848;
+}
+
+/**
+	SlideNote
+**/
+.slideNote .section-detail-layout.des{
+	background-color: #fbe67a;
+}
+.slideNote .des p span{
+	font-weight: bold;
+}
+.slideNote .section-detail-layout.content h4{
+	color: black;
+}
+.slideNote .section-detail-layout h4,
+.slideNote .section-detail-layout>p>span {
+	color: #f6a800;
+}
+.slideNote .section-detail-layout .embed-responsive {
+	padding-bottom: 42%;
+}
+.slideNote img {
+	width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}

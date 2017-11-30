@@ -1,0 +1,91 @@
+/*IPAD PRO*/
+@media screen and (max-width: 1024px) {
+	.work-item {
+		padding: 10px;
+	}
+	.work-item .caption {
+    position: static;
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* top: 0; */
+    /* left: 0; */
+    background: #689ad0;
+     opacity: 1; 
+	}
+	.work-item .caption .work_title {
+		position: static;
+	}
+	.work-item .caption h1 {
+		border: none;
+		padding: 0;
+	}
+}
+
+/*IPAD*/
+@media screen and (max-width: 768px) {
+	#header .header-content {
+		width: 90%;
+	}
+	#header .header-content {
+		padding: 30px 0%;
+	}
+	#header.fixed .header-content {
+	    border-bottom: 0 none;
+	    padding: 25px 0;
+	}
+	.nav-toggle {
+		display: block;
+	}
+	.navigation {
+		position: fixed;
+		background-color: #fff;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 20;
+		visibility: hidden;
+		opacity: 0;
+	}
+	.navigation .nav-items {
+		position: relative;
+		top: 45%;
+		-moz-transform: translateY(-45%);
+		-ms-transform: translateY(-45%);
+		-webkit-transform: translateY(-45%);
+		transform: translateY(-45%);
+	}
+	.navigation.open .nav-items {
+		padding: 0;
+	}
+	.navigation li {
+		display: block;
+		font-size: 25px;
+			text-align: center;
+		margin-bottom: 20px;
+	}
+	.navigation a {
+		display: block;
+		font-size: 25px;
+		margin: 0;
+		margin-left: 0px;
+		text-align: center;
+	}
+	.navigation, .navigation a {
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 640px) {
+	
+}
+@media screen and (max-width: 480px) {
+	.section-layout {
+		padding: 120px 10% 20px 10%;
+	}
+}
+@media screen and (max-width: 320px) {
+	.section-layout {
+		padding: 100px 10% 20px 10%;
+	}
+}
