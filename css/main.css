@@ -18,7 +18,7 @@ h1, h2, h3 {
 	font-family: Impact, "Trebuchet MS", Arial;
 }
 .section-layout{
-	padding: 220px 10% 0 10%;
+	padding: 180px 10% 0 10%;
 	width: 100%;
 }
 .section-detail-layout {
@@ -35,35 +35,20 @@ h3 {
 	letter-spacing: .1em;
 }
 
-@keyframes fade-in {  
-    0% {opacity: 0;} 
-    40% {opacity: 0;} 
-    100% {opacity: 1;}  
-}  
-@-webkit-keyframes fade-in {
-    0% {opacity: 0;}  
-    40% {opacity: 0;}  
-    100% {opacity: 1;}  
-}
-.intro {    
-    animation: fade-in-up;  
-    animation-duration: 1s;  
-    -webkit-animation:fade-in 1s;
-}    
-.works {    
-    animation: fade-in-up;  
-    animation-duration: 2s;  
-    -webkit-animation:fade-in 2s;
-}  
 
 /**
 	intro
 **/
+.intro {
+	background: url('../img/bg.png');
+	background-attachment: fixed; 
+	background-repeat: all;
+}
 .intro img {
 	width: 100%;
 	height: auto;
 }
-.intro h2{
+.intro h2 {
 	letter-spacing: 0.5em;
 }
 
@@ -86,8 +71,9 @@ works
     padding: 8px 15px;
 }
 .carousel-control{
-	font-size: 40px;
-	top: 50%;
+	font-size: 80px;
+	top: 30%;
+	text-shadow: 0 3px 9px rgba(0,0,0,0.6);
 }
 .carousel-control.right {
 	background-image: none;
@@ -111,42 +97,62 @@ works
 }
 
 .work-item .caption{
+    background: #689ad0;
     position: absolute;
     display: block;
-    width: 100%;
-    height: 100%;
-    top: 0; 
-    left: 0;
-    background: #689ad0;
-    opacity: 0;
+    width: 92%;
+    height: 20%;
+    bottom: 4%; 
+    left: 4%;
+    opacity: 1;
 }
 
 .work-item a:hover .caption{
     opacity: 1;
+    height: 70%;
+    background-color: rgba(104, 154, 208, 0.8);
+
+    transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
 }
 
 .work-item .caption .work_title{
     display: block;
     width: 100%;
     position: absolute;
-    text-align: center;
-    top: 10%;
 }
 
-.work-item .caption h1{
+.work-item .caption p{
     position: relative;
-    display: inline-block;
     max-width: 90%;
-    padding: 20px 0;
     z-index: 77;
     color: white;
     font-family: "raleway-regular", arial;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: .5px;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
+    left: 5%;
+    line-height: 18px;
+    margin: 0;
 }
 
+.work-item .caption p:first-child{
+	margin-top: 3%;
+}
+.work-item .caption p.item_describe{
+	/*visibility: hidden;*/
+	display: none;
+	font-weight: normal;
+}
+.work-item a:hover .caption p.item_describe{
+	/*visibility: visible;*/
+	display: block;
+	transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+}
 
 /**
 gallery
