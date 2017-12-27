@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Yue Wang">
+	<meta name="author" content="Yue Wang">
 	<title>Yue Wang's Portfolio</title>
 	<link rel="shortcut icon" href="img/icons/wy.ico" type="image/x-icon">
 	
@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<link  href="css/jquery.fancybox.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
 
@@ -20,16 +21,17 @@
 	<header id="header">
 		<div class="header-content clearfix"> 
 			<a class="logo" href="index.html"><img src="img/icons/wy.png" alt="logo"></a>
-	      	<nav class="navigation nav navbar-nav" role="navigation">
-		        <ul class="nav-items theme-text">
-		          <li class="active"><a href="#intro">It's Me</a></li>
-		          <li><a href="#works">Works</a> </li>
-		          <li><a href="#paintings">Paintings</a></li>
-		          <li><a href="#contact">Contact</a></li>
-		        </ul>
-	        </nav>
-	        <a href="#" class="nav-toggle">Menu<span></span></a> 
-	    </div>
+			<nav class="navigation nav navbar-nav" role="navigation">
+				<ul class="nav-items theme-text">
+				  <li class="active"><a href="#intro">It's Me</a></li>
+				  <li><a href="#works">Works</a> </li>
+				  <li><a href="#design">Graphic Design</a></li>
+				  <li><a href="#paintings">Paintings</a></li>
+				  <!-- <li><a href="#contact">Contact</a></li> -->
+				</ul>
+			</nav>
+			<a href="#" class="nav-toggle">Menu<span></span></a> 
+		</div>
 	</header>
 
 	<div data-spy="scroll" data-target=".header-content">
@@ -39,7 +41,7 @@
 					<h2>Hi, I'm <span class="theme-text">Yue!</span></h2>
 					<h2>UX Designer</h2>
 					<h4><a href="WangYue.pdf">View Resume</a></h4>
-	                <h4>Love to create <span class="theme-text">thoughtful, helpful, and pleasing</span> user experience and interfaces, combing <span class="theme-text">passion of design and background of software engineering.</span></h4>
+					<h4>Love to create <span class="theme-text">thoughtful, helpful, and pleasing</span> user experience and interfaces, combing <span class="theme-text">passion of design and background of software engineering.</span></h4>
 				</div>
 				<div class="col-md-4 col-sm-4">
 					<img src="img/headR.png" alt="">
@@ -52,147 +54,142 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-6">
 					<h3>Works</h3>
-					<p>UX Design & Research <br> Contextual Inquiry <br> Web Design & Development <br> Graphic Design</p>
+					<p>UX Design & Research <br> Contextual Inquiry <br> Web Design & Development <br> Visual Design</p>
 				</div>
 				<div class="col-md-4 col-sm-6 work-item wow fadeInDown">
 					<a href ="works/slideNote.html">
 						<img src="img/sn480.jpg" alt="SlideNote UX Design">
 						<div class="caption">
-		                    <div class="work_title">
-		                        <p>SlideNote 幻记</p>
-		                        <p class="item_describe">UX Design</p>
-		                        <p class="item_describe">Slides editing & notes taking APP</p>
-		                    </div>
-		                </div>
+							<div class="work_title">
+								<p>SlideNote 幻记</p>
+								<p class="item_describe">UX Design</p>
+								<p class="item_describe">Slides editing & notes taking APP</p>
+							</div>
+						</div>
 					</a>
 				</div>	
 				<div class="col-md-4 col-sm-6 work-item wow fadeInDown" wow-data-delay="0.2s">
 					<a href="works/MGym.html" class="disabled"><img src="img/mgym480.jpg" alt="MGym UX Research & Design">
 						<div class="caption">
-		                    <div class="work_title">
-		                        <p>MGym</p>
-		                        <p class="item_describe">UX Research&Design</p>
-		                        <p class="item_describe">Gym facilities' realtime occupancy checking & reserving APP</p>
-		                    </div>
-		                </div>
+							<div class="work_title">
+								<p>MGym</p>
+								<p class="item_describe">UX Research&Design</p>
+								<p class="item_describe">Gym facilities' realtime occupancy checking & reserving APP</p>
+							</div>
+						</div>
 					</a>
 				</div>					
 
 				<div class="col-md-4 col-sm-6 work-item wow fadeInDown"  wow-data-delay="0.4s">
 					<a href="works/eccats.html"><img src="img/ats480.jpg" alt="ECCATS Web Design & Development">
 						<div class="caption">
-		                    <div class="work_title">
-		                        <p>Midea ECC-ATS</p>
-		                        <p class="item_describe">Web Design&Development</p>
-		                        <p class="item_describe">Midea's auto testing&visualizing management system</p>
-		                    </div>
-		                </div>
+							<div class="work_title">
+								<p>Midea ECC-ATS</p>
+								<p class="item_describe">Web Design&Development</p>
+								<p class="item_describe">Midea's auto testing&visualizing management system</p>
+							</div>
+						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 work-item wow fadeInDown"  wow-data-delay="0.6s">
 					<a href="works/newsCenter.html"><img src="img/nc480.jpg" alt="News Center Visual Design">
 						<div class="caption">
-		                    <div class="work_title">
-		                        <p>SMIE News Center</p>
-		                        <p class="item_describe">Visual Design&Leadership</p>
-		                        <p class="item_describe">Logo, poster&other design</p>
-		                    </div>
-		                </div>
+							<div class="work_title">
+								<p>SMIE News Center</p>
+								<p class="item_describe">Visual Design&Leadership</p>
+								<p class="item_describe">Logo, poster&other design</p>
+							</div>
+						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 work-item wow fadeInDown" wow-data-delay="0.8s">
 					<a href="works/its.html"><img src="img/itstl480.jpg" alt="ITS contextual inquiry">
 						<div class="caption">
-		                    <div class="work_title">
-		                        <p>ITS Teaching&Learning</p>
-		                        <p class="item_describe">Contextual Inquiry</p>
-		                        <p class="item_describe">Providing solutions based on serveral interviews, research&analysis</p>
-		                    </div>
-		                </div>
+							<div class="work_title">
+								<p>ITS Teaching&Learning</p>
+								<p class="item_describe">Contextual Inquiry</p>
+								<p class="item_describe">Providing solutions based on serveral interviews, research&analysis</p>
+							</div>
+						</div>
 					</a>
 				</div>
 			</div>
 		</section>
 
-	<section class="container paintings section-layout wow fadeInDown" id="paintings">
-		<div class="row">
-			<div class="col-md-4">
-				<h3>Paintings</h3>
-				<h4> <a href="paintings.html">View more</a> <br> Love painting & handicrafts. </h4>
-				<p>Sketch <br> Watercolor <br> Color pencil ...</p>
-			</div>
-			<div id="myCarousel" class="carousel slide col-md-8">
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-					<li data-target="#myCarousel" data-slide-to="3"></li>
-				</ol>   
-				<div class="carousel-inner">
-					<div class="item active">
-						<img src="img/painting/seekAndHide.jpg" alt="First slide">
-					</div>
-					<div class="item">
-						<img src="img/painting/lesNereides.jpg" alt="Second slide">
-					</div>
-					<div class="item">
-						<img src="img/painting/waterlily.jpg" alt="Third slide">
-					</div>
-					<div class="item">
-						<img src="img/painting/zhuque.jpg" alt="Third slide">
-					</div>
-				</div>
-				<a class="carousel-control left" href="#myCarousel" 
-				   data-slide="prev">&lsaquo;</a>
-				<a class="carousel-control right" href="#myCarousel" 
-				   data-slide="next">&rsaquo;</a>
-			</div> 
+		
+		<section class="container paintings section-layout wow fadeInDown" id="design">
+			<h3>Graphic Design</h3>
+			<div class="row">
+				<a class="col-md-4 col-sm-6 col-xs-12" data-fancybox="gallery" href="img/works/botanicPoster.jpg">
+				    <img alt="Botanic Poster - Lemon" src="img/works/botanicPoster.jpg">
+				</a>
+				<a class="col-md-4 col-sm-6 col-xs-12" data-fancybox="gallery" href="img/works/covers.jpg">
+				    <img alt="Covers for graduation photo album" src="img/works/covers.jpg">
+				</a>
+				<a class="col-md-4 col-sm-6 col-xs-12" data-fancybox="gallery" href="img/works/graduation.png">
+				    <img alt="Graduation photo" src="img/works/graduation.png">
+				</a>
+			</div>	
+		</section>
 
-		</div>	
-	</section>
-
-	<section class="container contact section-layout wow slideInLeft" id="contact">
-		<div class="row">
-			<div class="col-md-4">
-				<h4>Say hi by email: <a href="mailto:wwyue@umich.edu"> wwyue@umich.edu</a></h4>
-				<h4>Welcome to message me ^ - ^</h4>
+		<section class="container paintings section-layout wow fadeInDown" id="paintings">
+			<h3>Paintings</h3>
+			<div class="row">	
+				<a class="col-md-3 col-sm-4 col-xs-6" data-fancybox="gallery" href="img/painting/christmas.gif">
+				    <img alt="Seek And Hide" src="img/painting/christmas0.jpg">
+				</a>
+				<a class="col-md-3 col-sm-4 col-xs-6" data-fancybox="gallery" href="img/painting/lesNereides.jpg">
+				    <img alt="Les Nereides" src="img/painting/lesNereides0.jpg">
+				</a>
+				<a class="col-md-3 col-sm-4 col-xs-6" data-fancybox="gallery" href="img/painting/nars.jpg">
+				    <img alt="Nars lipstick" src="img/painting/nars0.jpg">
+				</a>
+				<a class="col-md-3 col-sm-4 col-xs-6" data-fancybox="gallery" href="img/painting/seekAndHide.jpg">
+				    <img alt="Seek And Hide" src="img/painting/seekAndHide0.jpg">
+				</a>
+				<a class="col-md-3 col-sm-4 col-xs-6" data-fancybox="gallery" href="img/painting/houses.jpg">
+				    <img alt="Seek And Hide" src="img/painting/houses0.jpg">
+				</a>
+				<a class="col-md-3 col-sm-4 col-xs-6" data-fancybox="gallery" href="img/painting/waterlily.jpg">
+				    <img alt="water lily" src="img/painting/waterlily0.jpg">
+				</a>
+				<a class="col-md-3 col-sm-4 col-xs-6" data-fancybox="gallery" href="img/painting/yellowlily.jpg">
+				    <img alt="yellow water lily" src="img/painting/yellowlily0.jpg">
+				</a>
+				<a class="col-md-3 col-sm-4 col-xs-6" data-fancybox="gallery" href="img/painting/starrynight.jpg">
+				    <img alt="Starry night" src="img/painting/starrynight0.jpg">
+				</a>
+				<a class="col-md-3 col-sm-4 col-xs-6" data-fancybox="gallery" href="img/painting/zhuque.jpg">
+				    <img alt="Zhu que" src="img/painting/zhuque0.jpg">
+				</a>
+				<a class="col-md-3 col-sm-4 col-xs-6" data-fancybox="gallery" href="img/painting/tiger.jpg">
+				    <img alt="tiger" src="img/painting/tiger0.jpg">
+				</a>
+				<a class="col-md-3 col-sm-4 col-xs-6" data-fancybox="gallery" href="img/painting/eagle.jpg">
+				    <img alt="eagle" src="img/painting/eagle0.jpg">
+				</a>
+				<a class="col-md-3 col-sm-4 col-xs-6" data-fancybox="gallery" href="img/painting/glass.jpg">
+				    <img alt="Seek And Hide" src="img/painting/glass0.jpg">
+				</a>
 			</div>
-		    <form action="" method="post" onsubmit="return sendEmail()" class="col-md-8 contact-form" id="form">
-		      <div class="form-group col-md-6">
-		         <label class="label" for="name">Name</label>
-		         <input id="name" class="input-text" type="text" required>
-		      </div>
-		      <div class="form-group col-md-6">
-		         <label class="label" for="email">E-mail</label>
-		         <input id="email" class="input-text" type="email">
-		      </div>
-		      <div class="form-group col-md-12">
-		         <label class="label" for="message">Message</label>
-		         <textarea id="message" rows="3" class="input-text" required></textarea>
-		      </div>
-		      <div class="form-group col-md-12">
-		         <input class="submit-btn" type="submit" value="Submit">
-		         <span class="sendMsg"></span>
-		      </div>
-		   </form>  
-		</div>
-	</section>
+		</section>
+
 	</div>
 	<footer class="footer">
 		<ul >
-            <li><a target="blank" href="https://www.instagram.com/_yuewang_"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a target="blank" href="https://www.linkedin.com/in/yue-wang-065993128/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a target="blank" href="https://www.facebook.com/profile.php?id=100014087980506"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        	<li><a target="blank" href="https://github.com/ClorisYue"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+			<li><a target="blank" href="https://www.instagram.com/_yuewang_"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			<li><a target="blank" href="https://www.linkedin.com/in/yue-wang-065993128/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			<li><a target="blank" href="https://www.facebook.com/profile.php?id=100014087980506"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+			<li><a target="blank" href="https://github.com/ClorisYue"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 
-        </ul>
-         <p class="copy-right">Designed & coded &copy; Yue Wang 2017</p>
+		</ul>
+		 <p class="copy-right">Designed & coded &copy; Yue Wang 2017</p>
 	</footer>
 
+</body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>		
 	<script src="js/main.js"></script>
-	<script src="js/sendEmail.js"></script>
-</body>
 </html>
