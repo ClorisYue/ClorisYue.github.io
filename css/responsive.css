@@ -5,34 +5,24 @@
 	}
 	.work-item .caption {
         position: absolute;
-	    display: block;
-	    /* width: 93%; */
-	    height: 20%;
-	    /* top: 0; */
-	    /* left: 0; */
-	    background: #689ad0;
-	    opacity: 1;
-	    bottom: 4%;
-	    /* left: 4%; */
+    	height: 50%;
+   		top: 50%;
+    	left: 0%;
     }
-	.work-item .caption .work_title {
-		position: static;
-	}
-	.work-item .caption h1 {
-		border: none;
-		padding: 0;
+	.work-item .caption .work-title {
+		bottom: 16%;
 	}
 }
 
 /*IPAD*/
 @media screen and (max-width: 768px) {
-	#header .header-content {
+	header .header-content {
 		width: 90%;
 	}
-	#header .header-content {
+	header .header-content {
 		padding: 30px 0%;
 	}
-	#header.fixed .header-content {
+	header.fixed .header-content {
 	    border-bottom: 0 none;
 	    padding: 25px 0;
 	}
@@ -76,6 +66,9 @@
 	}
 	.navigation, .navigation a {
 		margin-left: 0px;
+	}
+	.intro-text {
+		width: 70%;
 	}
 }
 @media screen and (max-width: 640px) {

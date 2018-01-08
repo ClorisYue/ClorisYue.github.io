@@ -21,8 +21,10 @@ $(document).ready(function() {
 		var scroll = $(window).scrollTop();
 		if (scroll >= 50) {
 			$('#header').addClass('fixed');
+      $('#logo').attr('src', 'img/icons/wy.png')
 		} else {
 			$('#header').removeClass('fixed');
+      $('#logo').attr('src', 'img/icons/wy2.png')
 		}
 	});
 
@@ -53,6 +55,17 @@ $(document).ready(function() {
   }
 );
 wow.init();
+
+// window.onresize = function(e) {
+//   var hl = $(".left").outerHeight(); //获取左侧left层高度 
+//   hl = hl - .4*hl;
+//   var hr = $(".right").outerHeight(); //获取右侧right层高度  
+//   hr = hr - .4*hr;
+//   var mh = Math.max(hl,hr); //比较hl与hr高度并值赋给变量mh
+//   // alert(mh);
+//   $(".left").height(mh); //left层高度设高度mh  
+//   $(".right").height(mh); //right层高度设高度
+// }
 
 
 // modified carousel

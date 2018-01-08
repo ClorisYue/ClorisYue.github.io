@@ -1,41 +1,137 @@
+/***
+	header
+***/
+.work-detail header .logo svg .st0{
+	stroke: black;
+}
+.work-detail header .nav-items li a {
+	color: black;
+}
+.work-detail header .nav-items li.active a {
+	color: #689ad0;
+}
+
 /**
-	general
+	title & footer
 **/
 .work-detail-title a{
-	line-height: 56px;
+	padding-top: 20px;
+	color: black;
+}
+.work-detail-title a:hover{
+	color: #689ad0;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
 }
 .work-detail-footer {
 	text-align: center;
 	font-size: 24px;
 	font-weight: bold;
+	margin-top: 15%;
+    padding: 2% 2%;
+    background: black;
 }
 .work-detail-footer a{
-	color: #484848;
+	color: #fff;
+	font-size: .6em;
+}
+.work-detail-footer a:first-child {
+	text-align: left;
+}
+.work-detail-footer a:last-child {
+	text-align: right;
+}
+
+/***
+	general
+***/
+.work-detail h1 {
+	font-size: 4em;
+	letter-spacing: .1em;
+}
+.section-detail-layout {
+	padding: 30px 10% 20px 10%;
+	width: 100%;
+}
+.section-detail-layout div img {
+	max-width: 98%;
+}
+.work-detail .overview h4{
+	padding-left: 1em;
+}
+.work-detail-footer a:hover{
+	text-decoration: underline;
+}
+
+
+/**
+	AVA
+**/
+
+.ava .overview h4{
+	border-left: 5px black solid;
+}
+.work-detail.ava h3 {
+	background-color: black;
+	color: white;
+	border: 3px solid black;
+}
+
+/**
+    MGym
+**/
+
+.mgym .overview h4{
+	border-left: 5px rgb(6, 47, 105) solid;
+}
+.work-detail.mgym h3 {
+	background-color: rgb(6, 47, 105);
+	color: white;
+	border: 3px solid rgb(6, 47, 105);
+}
+.mgym .usertest div div div:last-child {
+	margin-top: 1.5em;
+}
+.mgym .usertest div div div img {
+	width: 49%;
+}
+.mgym .work-detail-footer {
+	background-color: rgba(6, 47, 105, 1);
 }
 
 /**
 	SlideNote
 **/
-.slideNote .section-detail-layout.des{
+.slidenote .overview h4{
+	border-left: 5px #fbe67a solid;
+}
+.work-detail.slidenote h3 {
+	background-color:  #fbe67a;
+	border: 3px solid  #fbe67a;
+}
+.slidenote .work-detail-footer {
 	background-color: #fbe67a;
 }
-.slideNote .des p span{
-	font-weight: bold;
-}
-.slideNote .section-detail-layout.content h4{
+.slidenote .work-detail-footer a {
 	color: black;
 }
-.slideNote .section-detail-layout h4,
-.slideNote .section-detail-layout>p>span {
-	color: #f6a800;
+
+/***
+	its
+***/
+.its .overview h4{
+	border-left: 5px #1d4587 solid;
 }
-.slideNote .section-detail-layout .embed-responsive {
-	padding-bottom: 42%;
+.work-detail.its h3 {
+	background-color:  #1d4587;
+	border: 3px solid  #1d4587;
+	color: white;
 }
-.slideNote img {
-	width: 80%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 20px;
+.its .work-detail-footer {
+	background-color: #1d4587;
+}
+.its video {
+	width: 98%;
 }

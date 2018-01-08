@@ -1,90 +1,173 @@
 <!doctype html>
 
-<html>
+<html lang="eng">
 <head>
 	<meta charset="utf-8">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Yue Wang">
-	<title>Yue Wang's Portfolio | SlideNote</title>
-	<link rel="shortcut icon" href="../img/icons/wy.ico" type="image/x-icon">
+	<meta name="author" content="Yue Wang">
+	<title>SlideNote | Yue Wang</title>
+	<link rel="shortcut icon" href="../img/icons/wy.ico" type="../image/x-icon">
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/animate.css">
 	<link rel="stylesheet" href="../css/workDetail.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
-<body class="slideNote">
+<body class="slidenote work-detail">
 	<header id="header">
 		<div class="header-content clearfix"> 
-			<a class="logo" href="../index.html"><img src="../img/icons/wy.png" alt=""></a>
-	      	<nav class="navigation nav navbar-nav" role="navigation">
-		        <ul class="nav-items theme-text">
-		          <li><a href="../index.html#intro">It's Me</a></li>
-		          <li class="active"><a href="../index.html#works">Works</a> </li>
-		          <li><a href="../index.html#design">Graphic Design</a></li>
-		          <li><a href="../index.html#paintings">Paintings</a></li>
-		        </ul>
-	        </nav>
-	        <a href="#" class="nav-toggle">Menu<span></span></a> 
-	    </div>
+			<a class="logo" href="../index.html">
+				<svg version="1.1" id="wy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 541.5 488.3" style="enable-background:new 0 0 541.5 488.3;" xml:space="preserve">
+				<style type="text/css">
+					.st0{fill:none;stroke:#fff;stroke-width:40;stroke-linecap:round;stroke-miterlimit:10;}
+				</style>
+				<g>
+					<path class="st0" d="M275.4,145.9V293c0,3.8-3.1,7-7,7h-88.3c-3.5,0-6.4-2.6-6.9-6l-14.9-88.1c-1.1-7.8-12.3-8.1-13.7-0.3
+						l-18.8,88.7c-0.6,3.3-3.5,5.7-6.8,5.7H27c-3.8,0-7-3.1-7-7V27c0-3.8,3.1-7,7-7h341.2c3.8,0,6.9,3.1,7,6.9l1,120
+						c0,5.5,0.1,14.5,0.1,20V293c0,3.8,3.1,7,7,7h131.4c3.8,0,7-3.1,7-7V143.9"/>
+				</g>
+				<g>
+					<path class="st0" d="M186.2,468.3h325.1c5.5,0,10-4.5,10-10V209.7"/>
+				</g>
+				</svg>
+			</a>
+			<nav class="navigation nav navbar-nav" role="navigation">
+				<ul class="nav-items theme-text">
+				  <li><a href="../index.html#intro">It's Me</a></li>
+				  <li class="active"><a href="../index.html#works">Works</a> </li>
+				  <li><a href="../index.html#design">Graphic Design</a></li>
+				  <li><a href="../index.html#paintings">Paintings</a></li>
+				</ul>
+			</nav>
+			<a href="#" class="nav-toggle">Menu<span></span></a> 
+		</div>
 	</header>
 
 	<section class="container section-layout work-detail-title">
 		<div class="row">
-			<h3 class="col-md-10">SLIDENOTE</h3>
-			<a class="col-md-2" href="../index.html#works"><i class="fa fa-th-large"></i> All works</a>
+			<a class="col-md-1 col-sm-1" href="../index.html#works"><i class="fa fa-arrow-circle-left fa-4x"></i></a>
+			<h1 class="col-md-11 col-sm-11">SlideNote</h1>
 		</div>
 	</section>
 
-	<section class="content section-detail-layout des container">
+	<section class="section-detail-layout container overview">
 		<div class="row">
-			<div class="col-md-4">
-		        <h4 class="">00.How do you record the slides?</h4>
+			<div class="col-sm-4">
+				<h4>Time: Oct. 2016 - July 2017</h4>			
+				<h5>Won <b>the first place</b> of 2016 China Mobile Application Innovation Tournament (about 400 teams in total).</h5>			
+		    </div>
+	        <div class="col-sm-4">
+	        	<h4>My Contributions:   
+		    	</h4>
+		    	<p>User interview, visual design, interaction evaluation, technical feasibility analysis, and engineering team (four engineering students) recruting and management</p>
+	        </div>
+	        <div class="col-sm-4">
+				<h4>Other team members:</h4>
+		    	<p>Weizhou Luo, Jiehui Wu, Qing Tang, Yahan Yao, and Kaiwei Luo <br> School of Communication and Design, and School of Data and Computer Science, Sun Yat-sen University.</p>
+	        </div>		
+		</div>
+	</section>
+
+	<section class="section-detail-layout container">
+        <h3 class="">00. The Background</h3>
+		<div class="row">
+			<div class="col-md-6">
 		        <p class="">It’s common to see students, businessmen taking photos of lecture or meeting slides, or writing down contents of slides in a hurry. Under these circumstances, there are problems like:<br> 
-		        <span class="">- Listeners cannot get the slides;<br>
+		        <b>- Listeners cannot get the slides;<br>
 		        - It‘s too slow to write down all important contents;<br>
 		        - Too much photos will take up lots of storage;<br>
-		        - It’s hard to manage and review the notes and slides.</span></p>
+		        - It’s hard to manage and review the notes and slides.</b></p>
+    			<h5>The idea of SlideNote came from our daily life.</h5>
+    			<p>Based on class, meeting, training and similar scenarios, it focuses on users’ need to get the contents of slides and to make notes more efficiently.</p>	
 			</div>
-	        <div class="embed-responsive col-md-8">
-				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bdLqHySu-4A" allowfullscreen></iframe>    		
+			<div class="col-md-6">
+		        <div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bdLqHySu-4A" allowfullscreen></iframe> 	
+				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="section-detail-layout">
-    	<h4>01.The idea of “SlideNote” comes from our daily life.</h4>
-    	<p>Based on class, meeting, training and similar scenarios, it focuses on users’ need to get the contents of slides and to make notes more efficiently.<br>There were a lot more to this project, but I will only include some important parts of the project and my contribution in our team.</p>
+	<section class="section-detail-layout container">
+	    <div class="row">
+	    	<div class="col-md-6">
+	    		<h3>01. Storyboard</h3>
+	    		<img alt="storyboard" src="../img/works/sn/storyboard.jpg"/>
+	    	</div>
+	    	<div class="col-md-6">
+	    		<h3>02. Structure</h3>
+	    		<img alt="Information Architecture" src="../img/works/sn/arch.png"/>
+	    	</div>
+	    </div>
+	</section>
 
-	    <h4>02.Storyboard</h4>
-	    <div class="row">
-	    	<img alt="storyboard" src="../img/works/sn/storyboard.jpg"/>
-	    </div>
-	    <div class="row">
-	    	<img alt="information structure" src="../img/works/sn/structure.jpg"/>
-	    </div>
-	    <h4>04.IPAD Flowchart</h4>
-	    <img alt="IPAD View Flowchart" src="../img/works/sn/flowchart.png"/>
-    
-        <h4>05.User Interview</h4>
-        <p>Based on the flowchart on IPAD and several discussions, our users are divided into four groups, considering two key behaviors: taking photos of slides and taking notes. Since the groups of people who take photos of slides will give us more hints on design, we planned interviews.</p>
-        <img alt="Table of target user analysis" src="../img/works/sn/table.png" width="600"/>
-      	<p>We interviewed three college students and two graduate students and three people who work in companies. Five college students come from fields of Management, Architecture, Electronical Engineering, Computer Science and Medicine. These people always attend classes, meetings, conferences in which slides play an important role.</p>
-      	<p><span>Summarizing these interviews we get some design inspirations:</span> 
-        <br><span>1. </span>Since more people take photos with their mobile phones, we can design an IPhone version which focuses more on photo taking, recognition and quick notation.  The startup homepage of IPhone version is the camera page which allows users to recored slides swiftly. And they can add notation directly on the photos and insert photos into notes. After lecture, they can recognize the text in the photo again. 
-        <br><span>2. </span>However, the IPad version focuses not only on text recognition but note editing with lots of inputs. And provide both single-column and double-column mode to meet individuals' habitat of taking notes. 
-        <br><span>3. </span>Considering different users’ ways of organizing and classifing their notes. SlideNote allows users to organize their notes into at most three layers, and their photos into two layers. 
-        <br><span>4. </span>To improve the efficiency and effectiveness of taking notes. Note contents are associated with according slides; users can add notation quickly by hand with highlighter, pen or pencil. </p>
+	<section class="section-detail-layout container">
+        <h3>03.User Interview</h3>
+    	<div class="row">
+    		<div class="col-sm-6">
+        		<p>Our users are divided into four groups, considering two key behaviors: taking photos of slides and taking notes by hand. Since the groups of people who take photos of slides will give us more hints on design, we planned interviews.</p>
+      			<p>We interviewed three college students and two graduate students and three people who work in companies. These people always attend classes, meetings, conferences in which slides play an important role.</p>
+    		</div>
+    		<div class="col-sm-6">
+        		<img alt="Table of target user analysis" src="../img/works/sn/table.png"/>
+    		</div>
+    		<div class="col-xs-12">
+		      	<p>Summarizing these interviews we get some design inspirations:<br>
+		      	1. Since more people take photos with their mobile phones, we can design an IPhone version which focuses more on photo taking, recognition and quick notation. The startup homepage of IPhone version is the camera page which allows users to recored slides swiftly. And they can add notation directly on the photos and insert photos into notes. After lecture, they can recognize the text in the photo again. <br>
+		      	2. However, the IPad version focuses not only on text recognition but note editing with lots of inputs. And provide both single-column and double-column mode to meet individuals' habitat of taking notes. <br>
+		      	3. Considering different users’ ways of organizing and classifing their notes. SlideNote allows users to organize their notes into at most three layers, and their photos into two layers. <br>
+		      	4. To improve the efficiency and effectiveness of taking notes, note contents are associated with according slides; users can add notation quickly by hand with highlighter, pen or pencil. </p>
+    		</div>
+    	</div>
+	</section>
+
+	<section class="section-detail-layout container">
+    	<h3>04. Workflow</h3>
+    	<div class="row">
+    		<div class="col-md-6">
+    			<h5>IPad Version</h5>
+			    <img alt="IPAD Version Workflow" src="../img/works/sn/flowchart.jpg"/>
+    		</div>
+    		<div class="col-md-6">
+    			<h5>Mobile Phone Version</h5>
+      			<img alt="Iphone Version Main Workflow" src="../img/works/sn/flowIphone.jpg" />
+    		</div>
+    	</div>
+	</section>	
+
+	<section class="section-detail-layout container">
+		<h3>05. Visual Design</h3>
+		<div class="row">
+			<div class="col-md-6">
+				<h5>IPad Version</h5>
+      			<img alt="Visual Design" src="../img/works/sn/ipad.jpg"/>        
+			</div>
+			<div class="col-md-6">
+				<h5>Mobile Phone Version</h5>
+      			<img alt="Visual Design" src="../img/works/sn/iphone.jpg"/> 
+			</div>
+		</div>
+	</section>
   
-      <img alt="Iphone Main Flow" src="../img/works/sn/SlideNote04.jpg" width="600"/>
-      <img alt="Visual Design" src="../img/works/sn/SlideNote05.jpg" width="600"/><br>        
-      <img alt="Our Team" src="../img/works/sn/SlideNote06.jpg" width="600"/>
+	<section class="section-detail-layout container">
+		<h3>06. Our Team</h3>
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+	    		<img alt="Our Team" src="../img/works/sn/team.jpg"/>
+			</div>
+		</div>
 	</section>
 	
 	<section class="container section-detail-layout work-detail-footer">
-		<a href="../index.html#works"><i class="fa fa-th-large"></i> All works</a>
+		<div class="row">
+			<a class="col-xs-6" href="ava.html"> &lt;  AVA</a>
+			<a class="col-xs-6" href="mgym.html">MGym &gt;</a>
+		</div>
 	</section>
 
 	<footer class="footer">
@@ -98,8 +181,10 @@
          <p class="copy-right">Designed & coded &copy; Yue Wang 2017</p>
 	</footer>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
-	<script src="../js/main.js"></script>
 </body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="../js/wow.min.js"></script>
+	<script src="../js/jquery.fancybox.min.js"></script>		
+	<script src="../js/main.js"></script>
 </html>
