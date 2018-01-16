@@ -156,6 +156,9 @@ gallery
 .paintings a img, .design a img {
 	width: 100%;
 }
+.paintings .row a {
+	padding: 5px;
+}
 .paintings h3, .design h3{
     margin-bottom: 50px;
 }

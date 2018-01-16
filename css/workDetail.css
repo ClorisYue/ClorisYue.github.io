@@ -135,3 +135,18 @@
 .its video {
 	width: 98%;
 }
+
+/***
+	ecc-ats
+***/
+.ats .overview h4{
+	border-left: 5px #253746 solid;
+}
+.work-detail.ats h3 {
+	background-color:  #253746;
+	border: 3px solid  #253746;
+	color: white;
+}
+.ats .work-detail-footer {
+	background-color: #253746;
+}
