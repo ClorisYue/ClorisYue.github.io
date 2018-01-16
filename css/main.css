@@ -49,9 +49,9 @@ h3 {
 	background-image: url('../img/bgwy.jpg');
 	background-attachment: fixed; 
 	background-repeat: no-repeat;
-	background-position: 80%;
+	background-position: 80% 0%;
 	color: white;
-	background-size: auto 100%;
+	background-size: auto 100vh;
 	width:auto;
 	display: flex;
 	min-height:100vh;
