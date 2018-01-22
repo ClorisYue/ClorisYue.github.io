@@ -1,5 +1,9 @@
 /*IPAD PRO*/
 @media screen and (max-width: 1024px) {
+}
+
+/*IPAD*/
+@media screen and (max-width: 768px) {
 	.work-item {
 		padding: 10px;
 	}
@@ -12,10 +16,6 @@
 	.work-item .caption .work-title {
 		bottom: 16%;
 	}
-}
-
-/*IPAD*/
-@media screen and (max-width: 768px) {
 	header .header-content {
 		width: 90%;
 	}
@@ -74,7 +74,7 @@
         	top:50%;
 	}
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 576px) {
 	
 }
 @media screen and (max-width: 480px) {
