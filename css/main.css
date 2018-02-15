@@ -25,6 +25,9 @@ p, li {
 	line-height: 2em;
 	color: #5a5d61;
 }
+section p {
+	margin: 1em 0;
+}
 h1, h2, h3 {
 	font-family: Impact, "Trebuchet MS", Arial;
 }
@@ -41,7 +44,7 @@ h3 {
 	letter-spacing: .1em;
 }
 
-h2.highlight {
+h2.mainproblem {
 	margin-top: 1.5em;
     padding: .5em 0;
     letter-spacing: .1em;
@@ -50,6 +53,19 @@ h2.highlight {
     /*text-decoration: underline yellow;*/
     border: 1px solid #0a0909;
 }
+
+.highlight {
+	background-color: yellow;
+}
+.notation {
+	font-size: 0.8em;
+}
+
+/* webkit, opera, IE9 */
+p::selection { background:yellow; }
+/* mozilla firefox */
+p::-moz-selection { background:yellow; }
+
 /**
 	intro
 **/
