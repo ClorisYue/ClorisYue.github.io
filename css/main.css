@@ -5,10 +5,12 @@
 	color: #689ad0;
 }
 body {
+
 	width: 100%;
 	margin: 0;
 	background-color: #f6f6f6;
 	background-attachment: fixed; 
+	font-family: 'Lato', sans-serif, Arial;
 }
 a:hover {
 	color: #689ad0;
@@ -21,24 +23,25 @@ a:hover {
 
 /** text **/
 p, li {
-	font-size: 1em;
+	font-size: 1.1em;
 	line-height: 2em;
-	color: #5a5d61;
+	color: #555;
 }
 section p {
 	margin: 1em 0;
 }
 h1, h2, h3 {
-	font-family: Impact, "Trebuchet MS", Arial;
+	font-family: 'Impact', 'Lato', sans-serif, Arial;
 }
 h4, h5 {
-	color: #333333;
+	color: #333;
 	letter-spacing: 0.1em;
 	line-height: 1.5em;
 	padding-top: .5em;
 }
 h5 {
 	font-size: 1.1em;
+	font-weight: bold;
 }
 h3 {
 	letter-spacing: .1em;
@@ -59,6 +62,8 @@ h2.mainproblem {
 }
 .notation {
 	font-size: 0.8em;
+	padding-left: 0.8em;
+	border-left: 3px solid #999;
 }
 
 /* webkit, opera, IE9 */
@@ -164,7 +169,7 @@ works
     max-width: 90%;
     z-index: 77;
     color: white;
-    font-family: "raleway-regular", arial;
+    font-family: 'Lato', sans-serif, Arial;
     font-size: 14px;
     letter-spacing: .5px;
     left: 5%;
@@ -185,7 +190,7 @@ gallery
 	padding: 5px;
 }
 .paintings h3, .design h3{
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 
 /**
@@ -287,6 +292,7 @@ header.fixed .navigation a {
 	color: #fff;
 	font-size: 16px;
 	margin-left: 40px;
+	font-family: 'Impact', 'Lato', sans-serif, Arial;
 }
 header .navigation a:hover, header .navigation li.active a{
 	/*text-decoration: none;*/
