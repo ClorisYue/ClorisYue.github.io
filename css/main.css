@@ -33,7 +33,7 @@ a:hover {
 
 section li,
 section p {
-  margin      : .5em 0;
+  /* margin      : .5em 0; */
   color       : #555;
   font-size   : 1.2em;
   line-height : 2em;
