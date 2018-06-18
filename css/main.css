@@ -524,6 +524,20 @@ header.fixed .nav-toggle {
   transform         : translateY(0) rotate(-45deg);
 }
 
+
+
+
+.carousel-control.right, .carousel-control.left {
+  background-repeat: no-repeat !important;
+  background-image: none !important;
+}
+
+.carousel-control {
+  width: 10% !important;
+  text-shadow: 0 5px 10px rgba(0,0,0,.6) !important;
+  opacity: 1 !important;
+}
+
 /* carousel of graphic design */
 
 /**

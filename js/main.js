@@ -1,13 +1,13 @@
 // scrollspy on navigation
 $('body').scrollspy({ target: '.header-content' })
 
-// function locateAt(e){  
+// function locateAt(e){
 //     e =  document.getElementById(e);
 //     y = e.offsetTop;
-//     while(e=e.offsetParent){ y += e.offsetTop;}  
-//     y-=94;/*height of fixed navigation*/  
-//     window.scrollTo(0,y);  
-// }  
+//     while(e=e.offsetParent){ y += e.offsetTop;}
+//     y-=94;/*height of fixed navigation*/
+//     window.scrollTo(0,y);
+// }
 // function back2home(e) {
 // 	window.location.href= "index.html?id=0";
 // }
@@ -34,7 +34,7 @@ $(document).ready(function() {
 		$(this).toggleClass('nav-close');
 		nav.toggleClass('open');
 		return false;
-	});	
+	});
 	nav.find('a').on('click', function() {
 		$('.nav-toggle').toggleClass('nav-close');
 		nav.toggleClass('open');
@@ -57,32 +57,33 @@ $(document).ready(function() {
 wow.init();
 
 // window.onresize = function(e) {
-//   var hl = $(".left").outerHeight(); //获取左侧left层高度 
+//   var hl = $(".left").outerHeight(); //获取左侧left层高度
 //   hl = hl - .4*hl;
-//   var hr = $(".right").outerHeight(); //获取右侧right层高度  
+//   var hr = $(".right").outerHeight(); //获取右侧right层高度
 //   hr = hr - .4*hr;
 //   var mh = Math.max(hl,hr); //比较hl与hr高度并值赋给变量mh
 //   // alert(mh);
-//   $(".left").height(mh); //left层高度设高度mh  
+//   $(".left").height(mh); //left层高度设高度mh
 //   $(".right").height(mh); //right层高度设高度
 // }
 
 
 // modified carousel
+// $('.carousel').carousel();
 /*
 var carousels = $('.carousel');
 carousels.each(function() {
   var $obj = $(this);
   var $inner = $obj.find('.carousel-inner');
-    
+
   var id = 'uuid' + new Date().getTime();
   $obj.addClass(id);
-  
+
   if ($obj.data('shift') === 1) {
     var items = $obj.find('.item > [class*="col-"]'),
         visibleCnt = $obj.find('.item:first [class*="col-"]').length,
         wrapper = "";
-      
+
     var rule_base = '.carousel.' + id + ' .carousel-inner > .item',
         styles = $('<style></style>'),
         rules = [];
@@ -97,7 +98,7 @@ carousels.each(function() {
       styles.append(rules[i]);
     }
     $obj.prepend(styles);
-  
+
     for (var i = 0; i < $(items).length; i++) {
       var $item = $(items[i]);
       var parent = $item.parent();
@@ -107,7 +108,7 @@ carousels.each(function() {
         }
         $item.unwrap();
       }
-        
+
       var itemGroup = [$item];
       for (var x = 1; x < visibleCnt; x++) {
         var a = i + x;
