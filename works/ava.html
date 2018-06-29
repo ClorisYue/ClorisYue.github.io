@@ -184,11 +184,11 @@
   <section class="section-detail-layout container">
     <h3>03. Ideation </h3>
     <div class="row">
-      <div class="col-sm-8">
-        <p>We bascially brainstromed our solutions from three directions -- just a device, a template device with a corresponding App, and an App taking users and officers all together.</p>
+      <div class="col-sm-12">
+        <p>We bascially brainstormed our solutions from three directions -- just a device, a template device with a corresponding App, and an App taking users and officers all together.</p>
       </div>
-      <div class="col-sm-4">
-        <img src="../img/works/ava/brainstroming.jpg" alt="solution brainstroming">
+      <div class="col-sm-12">
+        <img src="../img/works/ava/brainstorming.jpg" alt="solution brainstorming">
         <p class="notation">Fig. Three primary design directions</p>
       </div>
     </div>
@@ -227,6 +227,10 @@
           the box by hand manually to the user. The second one is an App which can let voter to vote by voice commands and print the result on the original received paper ballot. We created a script of voice commands and a simple UI for testing.</p>
         <p>After usability testing, we iterated on a high-fidelity prototype which fouced more on the accuracy of voice commands, and the UI design.</p>
       </div>
+      <div class="col-md-offset-1 col-md-10">
+        <img alt="" src="../img/works/ava/interface0.jpg" />
+        <p class="notation">Fig. Some frameworks of key interfaces</p>
+      </div>
     </div>
   </section>
 
@@ -255,50 +259,82 @@
   </section>
 
   <section class="section-detail-layout container">
-    <h3>07. Workflow</h3>
+    <h3>08. Final Design</h3>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-offset-1 col-md-10">
         <img alt="Work Flow" src="../img/works/ava/workflow.png" />
         <p class="notation">Fig. Workflow of using AVA to vote</p>
       </div>
-      <div class="col-md-12">
-        <ol>
-          <li>Receive the absentee ballot, launch the AVA App. </li>
-          <li>Input precinct information to pull up the correct ballot template.</li>
-          <li>Listen to the how-to-vote instructions. </li>
-          <li>Vote: The ballot will be read section by section, and user can select candidates and proposals. </li>
-          <li>Confirm: AVA will read the voting result to user to confirm or edit user’s choices. </li>
-          <li>Print: AVA will connect to the printer and ask the user to insert the paper ballot in correct direction. </li>
-          <li>Confirm printed result: User scans the printed ballot. AVA will recognize whether the correct candidate was filled in.</li>
-          <li>Seal and mail the ballot back.</li>
-        </ol>
-      </div>
-    </div>
-  </section>
 
-  <section class="section-detail-layout container">
-    <h3>08. Final Design</h3>
-    <div class="row">
-      <div class="col-xs-12">
-        <h4>Key features:</h4>
-        <ul>
-          <li> <strong>Black and white interface.</strong> A strong contrast makes it more readable for the visually impaired individuals.
-          </li>
-          <li> <strong>Large buttons and simple interface.</strong> More readable for the visually impaired and easier to operate on the touch screen.
-          </li>
-          <li> <strong>Both voice and geasture control.</strong> User can use touch screen to input private information instead of speak it out. And now many visually impaired have gotton used to touch screen.
-          </li>
-          <li> <strong>Audio instructions.</strong> User can control the audio with the same operations as VoiceOver, the screenreader they are uesed to. And they can choose to skip or relisten some instructions by clicking the buttons on the top. Have a look
-            at our <a href="https://docs.google.com/document/d/1R0axDigyMPHyX6_oxlwSEL_wc5uHCe0Z7fIgNgkfzSM/edit?usp=sharing" target="_blank">Scripts for the voice instructions</a>.
-          </li>
-        </ul>
+      <div class="col-md-9">
+        <h4 class="strong">1. Launch the AVA App </h4>
+        <p>User will request an absentee ballot online following the current process, and get the paper ballot mailed to his/her address. Then user can launch AVA start to vote.</p>
       </div>
-      <div class="col-xs-12">
-        <img alt="" src="../img/works/ava/interface0.jpg" />
-        <p class="notation">Fig. Some key user interfaces</p>
-        <p>Have a look at our <a href="https://projects.invisionApp.com/share/UFF4JHKZJ#/screens" target="_blank">Interactive Prototype</a>.</p>
-        <p>See the <a href="#intro-video">video to learn the whole project.</a></p>
+      <div class="col-md-3">
+        <img alt="Launch AVA" src="../img/works/ava/launch.jpg" />
       </div>
+
+      <div class="col-md-4">
+        <h4 class="strong">2. Input state, ward, and precinct information</h4>
+        <p>User will input state, ward and precinct information by either voice input or keyboard input to pull up the correct ballot template. Ballot template data will be updated by the election committee.</p>
+      </div>
+      <div class="col-md-8">
+        <img alt="Input State, Ward, Precinct information" src="../img/works/ava/address.jpg" />
+      </div>
+
+      <div class="col-md-9">
+        <h4 class="strong">3. Listen to the how-to-vote instructions</h4>
+        <p>AVA will read the how-to-vote instructions, and user can skip the instruction if he/she already know that.</p>
+      </div>
+      <div class="col-md-3">
+        <img alt="Input State, Ward, Precinct information" src="../img/works/ava/instructions.jpg" />
+      </div>
+
+      <div class="col-md-4">
+        <h4 class="strong">4. Vote</h4>
+        <p>The ballot will be read section by section, and user can select candidates or write in, and vote proposals by either vocie control or touch screen control.</p>
+      </div>
+      <div class="col-md-8">
+        <img alt="Vote" src="../img/works/ava/address.jpg" />
+      </div>
+
+      <div class="col-md-6">
+        <h4 class="strong">5. Confirm and print</h4>
+        <p>After finished all the choices, AVA will read the voting results to user to confirm or edit the choices. And then AVA will ask for permission to connect to the printer. AVA will direct the user to insert the paper ballot in correct direction and start to print. </p>
+      </div>
+      <div class="col-md-6">
+        <img alt="confirm vote resuts and print" src="../img/works/ava/print.jpg" />
+      </div>
+
+      <div class="col-md-8">
+        <h4 class="strong">6. Confirm printing result and mail</h4>
+        <p>AVA guides the user to scan the printed ballot and compare the printing results with the voting results to ensure whether the correct candidates are filled in. Then, user can seal the envelope and mail the ballot back.</p>
+      </div>
+      <div class="col-md-4">
+        <img alt="confirm printing resuts and mail back" src="../img/works/ava/confirm.jpg" />
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h4 class="strong">Key features:</h4>
+          <ul>
+            <li> <strong>Black and white interface.</strong> A strong contrast makes it more readable for the visually impaired individuals.
+            </li>
+            <li> <strong>Large buttons and simple interface.</strong> More readable for the visually impaired and easier to operate on the touch screen.
+            </li>
+            <li> <strong>Both voice and geasture control.</strong> User can use touch screen to input private information instead of speak it out. And now many visually impaired have gotton used to touch screen.
+            </li>
+            <li> <strong>Audio instructions.</strong> User can control the audio with the same operations as VoiceOver, the screenreader they are uesed to. And they can choose to skip or relisten some instructions by clicking the buttons on the top. Have a look
+              at our <a href="https://docs.google.com/document/d/1R0axDigyMPHyX6_oxlwSEL_wc5uHCe0Z7fIgNgkfzSM/edit?usp=sharing" target="_blank">Scripts for the voice instructions</a>.
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12">
+          <!-- <p>Have a look at our <a href="https://projects.invisionApp.com/share/UFF4JHKZJ#/screens" target="_blank">Interactive Prototype</a>.</p> -->
+          <p>See the <a href="#intro-video">video to learn the whole project.</a></p>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -315,6 +351,16 @@
         <p> That was a hard time when we stuck at these imperfect solutions, but we were so lucky to meet those helpful users, they helped us to reach out to related organization and people who may be willing to help. And it was them encouraged us to keep
           doing, since they thought it was a meaningful attempt to solve a problem which can be beneficial for their community. </p>
         <p> We hope more efforts can be made to solve this problem.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="../img/works/ava/conveyUX1.jpg" alt="team photo on ConveyUX 2018">
+        <p class="notation">Fig. Photos of we presenting on ConveyUX 2018, Seattle</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="../img/works/ava/conveyUX2.jpg" alt="team photo on ConveyUX 2018">
+      </div>
+      <div class="col-sm-4">
+        <img src="../img/works/ava/conveyUX3.jpg" alt="team photo on ConveyUX 2018">
       </div>
     </div>
   </section>

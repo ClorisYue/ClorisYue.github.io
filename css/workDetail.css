@@ -59,10 +59,13 @@
   font-size : 3em;
   /* letter-spacing: .1em; */
 }
+.work-detil h3 {
+  padding-bottom: 20px;
+}
 
 .section-detail-layout {
   width   : 100%;
-  padding : 30px 15%;
+  padding : 56px 15%;
 }
 
 .section-detail-layout div img {
