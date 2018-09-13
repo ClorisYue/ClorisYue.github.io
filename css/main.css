@@ -166,6 +166,7 @@ p::-moz-selection {
   position   : absolute;
   left       : 2rem;
   width      : 90%;
+  bottom : 2rem;
   background : none;
 }
 
