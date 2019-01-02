@@ -30,7 +30,7 @@
 
 <body>
 	<header id="header">
-		<div class="header-content clearfix">
+		<div class="header-content clearfix spynav">
 			<a class="logo" href="index.html">
 				<!-- <img id="logo" src="img/icons/wy2.png" alt="logo"> -->
 				<svg version="1.1" id="wy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -53,13 +53,14 @@
 				  <li><a href="#works">Works</a></li>
 				  <li><a href="illustrations.html">Illustrations</a></li>
 				  <li><a href="me.html">About Me</a></li>
+                  <li><a href="YueWangCV.pdf" target="_blank">Resume</a></li>
 				</ul>
 			</nav>
 			<a href="#" class="nav-toggle">Menu<span></span></a>
 		</div>
 	</header>
 
-	<div data-spy="scroll" data-target=".header-content">
+	<div data-spy="scroll" data-target=".spynav">
 		<img class="hero-img" src="img/bg.jpg" alt="my illustration"/>
 		<!-- <section class="container intro section-layout wow fadeInDown" id="intro"> -->
 				<div class="intro-text">
@@ -67,35 +68,35 @@
 					<h3>To Feel. To Design. To Develop.</h3>
 					<h4>UX Designer & Engineer</h4>
 					<h4>Freelance Illustrator</h4>
-					<a class="bold" href="YueWangCV.pdf" target="_blank">View Resume </a>
+					<!-- <a class="bold" href="YueWangCV.pdf" target="_blank">View Resume </a> -->
 				</div>
 		<!-- </section> -->
 
 		<section class="container works section-layout intro" id="intro">
 			<h2 class="wow fadeInDown">HI, I’m <span class="theme-text">Yue</span> </h2>
-			<p class="wow fadeInDown" wow-data-delay="0.05s">a <span class="highlight bold">UX designer&engineer</span> specialize in <span class="bold">User Experience Research and Design</span> at University of Michigan, School of Information. My personality let me always think in other's shoes. My "life-long" painting expereince trained me to design and treat all my tasks with an artisan spirit. My software engineering background taught me the skills to bring my own ideas into reality and explore new technology. </p>
-			<p class="wow fadeInDown" wow-data-delay="0.05s"> Beside UX design, I’m also a freelance <span class="highlight bold">illustrator</span> for both tradditional and digital illustrations. In my free time, I enjoy <a class="bold underline" href="me.html"> painting, petting my cat, traveling, baking and trying new things.</a> <br>
-			<span class="bold">Learn more <a class="underline" href="me.html">about me</a> and I’m always <a class="underline" href="#contact">open to talk.</a></span></p>
+			<p class="wow fadeInDown" wow-data-delay="0.05s">a <span class="highlight">UX designer& engineer</span> specializing in <strong>User Experience Research and Design</strong> at University of Michigan, School of Information. My personality let me always think in other's shoes. My "life-long" painting experience trained me to design and treat all my tasks with an artisan spirit. My software engineering background taught me the skills to bring my own ideas into reality and explore new technology. </p>
+			<p class="wow fadeInDown" wow-data-delay="0.05s"> Besides, I’m a freelance <span class="highlight">illustrator</span> for both traditional and digital illustrations. In my free time, I enjoy <a class="underline" href="me.html"> painting, petting my cat, traveling, baking and trying new things.</a> <br>
+			<span class="">Learn more <a class="underline" href="me.html">about me</a> and I’m always <a class="underline" href="#contact">open to talk.</a></span></p>
 		</section>
 		<section class="container works section-layout" id="works">
 			<h3>Works</h3>
 			<div class="row">
-				<div class="col-md-6 icfe wow fadeInDown">
+				<div class="col-md-6 icfe wow fadeInDown grid">
 					<div class="work-item">
-						<a class="disabled"><img src="img/icfe.png" alt="In Context for educator">
+						<a href="works/icfe.html"><img src="img/icfe.png" alt="In Context for educator">
 							<div class="caption">
 								<div class="work-title">
 									<p>In Context for Educators</p>
 									<p>UX Intern @ Cengage Learning</p>
 									<p>Website</p>
-									<p>Coming soon</p>
+									<p>View Detail</p>
 								</div>
 							</div>
 						</a>
 					</div>
 				</div>
 
-				<div class="col-md-6 dslab wow fadeInDown">
+				<div class="col-md-6 dslab wow fadeInDown grid">
 					<div class="work-item">
 						<a class="disabled"><img src="img/dslab.png" alt="Digital Scholar Lab">
 							<div class="caption">
@@ -110,9 +111,39 @@
 					</div>
 				</div>
 
-				<div class="col-md-6 mgym wow fadeInDown" wow-data-delay="0.1s">
+				<!-- <div class="col-md-6 mgym wow fadeInDown grid" wow-data-delay="0.1s">
 					<div class="work-item">
-						<a href="works/mgym.html"><img src="img/mgym.png" alt="MGym UX Research & Design">
+						<a href=""><img src="img/mgym.png" alt="MGym UX Research & Design">
+							<div class="caption">
+								<div class="work-title">
+									<p>EatJoy</p>
+									<p>UX Research & Design</p>
+									<p>Mobile APP | Consumer-Health Technology</p>
+									<p>View Detail</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div> -->
+
+				<div class="col-md-6 ava wow fadeInDown grid" wow-data-delay="0.1s">
+					<div class="work-item">
+						<a href="works/ava.html"><img src="img/ava.png" alt="Absentee Voting Assistant UX">
+							<div class="caption">
+								<div class="work-title">
+									<p>Absentee Voting Assistant</p>
+									<p>UX Research & Design | ConveyUX 2018 Presentation</p>
+									<p>Mobile Assistive APP | Voice Interaction</p>
+									<p>View Detail</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-md-6 mgym wow fadeInDown grid" wow-data-delay="0.1s">
+					<div class="work-item">
+						<a href=""><img src="img/mgym.png" alt="MGym UX Research & Design">
 							<div class="caption">
 								<div class="work-title">
 									<p>MGym</p>
@@ -125,22 +156,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-6 ava wow fadeInDown" wow-data-delay="0.1s">
-					<div class="work-item">
-						<a href="works/ava.html"><img src="img/ava.png" alt="Absentee Voting Assistant UX">
-							<div class="caption">
-								<div class="work-title">
-									<p>Absentee Voting Assistant</p>
-									<p>UX Research & Design | ConveyUX 2018 Presentation</p>
-									<p>Mobile Assistive APP </p>
-									<p>View Detail</p>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class="col-md-6 ats wow fadeInDown"  wow-data-delay="0.2s">
+				<div class="col-md-6 ats wow fadeInDown grid"  wow-data-delay="0.2s">
 					<div class="work-item">
 						<a href="works/ats.html"><img src="img/ats.png" alt="ECC-ATS web development & UI design">
 							<div class="caption">
@@ -155,7 +171,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-6 slidenote wow fadeInDown" wow-data-delay="0.2s">
+				<div class="col-md-6 slidenote wow fadeInDown grid" wow-data-delay="0.2s">
 					<div class="work-item">
 						<a href ="works/slidenote.html">
 							<img src="img/slidenote.png" alt="SlideNote UX Design">
@@ -171,7 +187,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-6 its wow fadeInDown"  wow-data-delay="0.3s">
+				<div class="col-md-6 its wow fadeInDown grid"  wow-data-delay="0.3s">
 					<div class="work-item">
 						<a href="works/its.html"><img src="img/its.png" alt="ITS contextual inquiry">
 							<div class="caption">
@@ -185,7 +201,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-6 graphic wow fadeInDown"  wow-data-delay="0.3s">
+				<div class="col-md-6 graphic wow fadeInDown grid"  wow-data-delay="0.3s">
 					<div class="work-item">
 						<a class="disabled"><img src="img/graphic.png" alt="Graphic Design">
 							<div class="caption">

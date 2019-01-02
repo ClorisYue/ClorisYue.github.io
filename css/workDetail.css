@@ -12,6 +12,7 @@
   color : #689ad0;
 }
 
+
 .overview div div p {
   padding-left : 1.4em;
 }
@@ -32,9 +33,11 @@
 }
 
 .work-detail-footer {
+  width: 100%;
+
   margin-top  : 15%;
-  padding     : 2% 2%;
-  background  : black;
+  padding     : 2% 15%;
+  background  : #85ABD7;
   text-align  : center;
   font-size   : 24px;
   font-weight : bold;
@@ -53,19 +56,124 @@
   text-align : right;
 }
 
+
+/* side nav*/
+.side-nav {
+  /*font-family: sans-serif;*/
+  background: rgba(255,255,255,0.6);
+  width: 155px !important;
+  z-index: 80;
+  position: fixed;
+  padding-left: 20px !important;
+}
+.side-nav ul{
+  padding: 10px !important;
+}
+.side-nav ul li{
+  line-height: 2em !important;
+  list-style-type: circle !important;
+}
+
+.side-nav ul li.active{
+  list-style-type: disc !important;
+}
+.side-nav a{
+  font-size: 0.9em !important;
+  display: block;
+  font-weight: 200;
+  /*margin: 0 0.5em;*/
+  color: #111;
+  text-decoration: none;
+}
+.side-nav ul li.active a{
+  font-weight:  bold;
+  text-decoration: none;
+  border-bottom: none;
+  /*color: ;*/
+}
+
+
+
+.video-layout {
+  text-align: center;
+}
+.video-text {
+  padding-top: 2%;
+}
+
+.concept-overview .row{
+  margin-top: 3em;
+}
+
 /* general * */
 
 .work-detail h1 {
   font-size : 3em;
   /* letter-spacing: .1em; */
 }
-.work-detil h3 {
-  padding-bottom: 20px;
+
+.work-detail h2 {
+  color: #689ad0;
+  font-weight: 600;
+  
+}
+.work-detail h3 {
+  /*padding-bottom: 1.5em;*/
+  margin-bottom: 0;
 }
 
 .section-detail-layout {
   width   : 100%;
   padding : 56px 15%;
+}
+
+.work-detail .sub-title{
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  font-weight: 500;
+  color: #bbb;
+
+}
+
+
+.pics_in_a_row img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.pics_in_a_row {
+  display: flex;
+}
+
+.img1 { flex: 0.75; }
+.img2 { flex: 1; }
+.img3 { flex: 1.25; }
+.img4 { flex: 0.75; }
+
+/* Aaaand just some general styling. */
+/*
+*, *:before, *:after {
+  box-sizing: border-box;
+}*/
+
+/*.pics_in_a_row {
+  margin: 25px 0;
+}
+
+.pics_in_a_row > div:not(:last-child) {
+  margin-right: 2%;
+}
+*/
+
+
+.section-overview {
+  padding: 56px 6% 0 6% !important;
+}
+
+.section-overview img{
+  width: 100%;
 }
 
 .section-detail-layout div img {
@@ -81,9 +189,9 @@
 }
 
 .strong {
-  font-size   : 1.3em;
-  font-weight : bold;
-  /* line-height: 2em; */
+  font-size   : 1.2em;
+  font-weight : 400;
+  line-height: 2em; 
 }
 
 .captial {
@@ -247,4 +355,9 @@
 
 .ats .work-detail-footer {
   background-color : #253746;
+}
+
+
+.icfe .persona img {
+  width: 80%;
 }
