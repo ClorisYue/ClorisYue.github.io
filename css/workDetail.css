@@ -14,7 +14,7 @@
 
 
 .overview div div p {
-  padding-left : 1.4em;
+  /*padding-left : 1em;*/
 }
 
 /* title & footer */
@@ -202,10 +202,6 @@
 }
 
 /* AVA */
-
-.ava .overview h4 {
-  border-left : 5px black solid;
-}
 
 .work-detail.ava h3 {
   /* background-color: black; */
