@@ -199,6 +199,23 @@
   color : white;
 }
 
+/*Eatjoy*/
+.eatjoy h2 {
+  color: #91CEAD;
+}
+.eatjoy .work-detail-footer {
+  background-color: #91CEAD;
+  color: #333; 
+}
+.eatjoy #design div h3{
+  /*color: #91CEAD;*/
+}
+.eatjoy #design div h4{
+  color: #91CEAD;
+}
+.eatjoy #design img {
+  margin-bottom: 8%;
+}
 /* MGym */
 
 
