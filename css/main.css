@@ -49,7 +49,7 @@ section li,
 section p {
   /* margin      : .5em 0; */
   color       : #555;
-  font-size   : 1.1em;
+  font-size   : 1.2em;
   line-height : 1.8em;
   margin-bottom: 1em;
 }
@@ -72,10 +72,18 @@ li {
   line-height : 1.5em;
 }
 
+h3 {
+  line-height: 1.4em;
+}
+h4 {
+  line-height: 1.3em;
+}
 h5 {
   font-size   : 1.1em;
   font-weight : bold;
+  line-height: 1.2em;
 }
+
 
 h2.mainproblem {
   margin-top       : 1.5em;
@@ -97,6 +105,9 @@ h2.mainproblem {
   font-size     : 0.8em;
 }
 
+.white {
+  color: #fff;
+}
 /* webkit, opera, IE9 */
 
 p::selection {
@@ -233,11 +244,11 @@ p::-moz-selection {
   border-radius: 4px;
 }
 .dslab .work-item img{
-  background-color: #485C8D;
+  background-color: #0b5279;
   border-radius: 4px;
 }
-.mgym .work-item img{
-  background-color: #3B8991;
+.eatjoy .work-item img{
+  background-color: #89c4c4;
   border-radius: 4px;
 }
 .ava .work-item img{
@@ -253,11 +264,11 @@ p::-moz-selection {
   border-radius: 4px;
 }
 .its .work-item img{
-  background-color: #577CA8;
+  background-color: #485C8D;
   border-radius: 4px;
 }
 .graphic .work-item img{
-  background-color: #D8746B;
+  background-color: #eba05a;
   border-radius: 4px;
 }
 

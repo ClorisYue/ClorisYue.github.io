@@ -121,6 +121,10 @@
   /*padding-bottom: 1.5em;*/
   margin-bottom: 0;
 }
+.work-detail .video-text h3 {
+  /*padding-bottom: 1.5em;*/
+  margin-bottom: 1em;
+}
 
 .section-detail-layout {
   width   : 100%;
