@@ -191,6 +191,30 @@
   font-size : 2em;
 }
 
+/* DSLAB*/
+.work-detail.dslab .inverse {
+  background-color: #013964;
+  color: white;
+}
+.work-detail.dslab .inverse h2,
+.work-detail.dslab .inverse h4,
+.work-detail.dslab .inverse p,
+.work-detail.dslab .inverse li {
+  color: white;
+}
+
+.dslab #research img{
+  margin-bottom: 3em;
+}
+.dslab #research h4{
+  margin-bottom: 0;
+}
+
+.work-detail.dslab .inverse video {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+}
 /* AVA */
 
 .work-detail.ava .inverse {
@@ -220,6 +244,7 @@
 .eatjoy #design img {
   margin-bottom: 8%;
 }
+
 /* MGym */
 
 
@@ -255,16 +280,6 @@
 }
 
 .work-detail.its h3 {
-  /**
-  * background-color:
-  *
-  * #1d4587;
-  */
-  /**
-  * border: 3px solid
-  *
-  * #1d4587;
-  */
   color : #1d4587;
 }
 
@@ -275,11 +290,6 @@
 
 .work-detail.its .inverse h3,
 .work-detail.its .inverse p {
-  /**
-  * background-color:
-  *
-  * #1d4587;
-  */
   color : white;
 }
 
@@ -289,30 +299,6 @@
 
 .its video {
   width : 98%;
-}
-
-/* ecc-ats * */
-
-.ats .overview h4 {
-  border-left : 5px #253746 solid;
-}
-
-.work-detail.ats h3 {
-  /**
-  * background-color:
-  *
-  * #253746;
-  */
-  /**
-  * border: 3px solid
-  *
-  * #253746;
-  */
-  color : #253746;
-}
-
-.ats .work-detail-footer {
-  background-color : #253746;
 }
 
 

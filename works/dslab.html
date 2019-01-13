@@ -80,19 +80,19 @@ gtag('config', 'UA-113651462-1');
                 <li><a href="#challenge">Design Challenge</a></li>
                 <li><a href="#overview">Design Overview</a></li>
                 <li><a href="#research">Research</a></li>
-                <li><a href="#design">Design Process</a></li>
+                <!-- <li><a href="#design">Design Process</a></li> -->
                 <li><a href="#final">Final Design</a></li>
                 <li><a href="#reflection">Reflection</a></li>
             </ul>
         </nav>
     </div>
 
-    <div id="brief" class="section-overview"><img src="../img/works/icfe/overview2.png" alt="project overview"> </div>
+    <div id="brief" class="section-overview"><img src="../img/works/dslab/overview.png" alt="project overview"> </div>
     <section class="section-detail-layout container overview">
         <div class="col-sm-12">
             <p><b>Digital Scholar Lab is a Gale tool for Digital Humanists & Scholars which offers solutions and possibilities to the most common challenges in the digital humanities.</b> It has three key features - Create Content Sets, Analyze Documents, and Manage and Share.</p> 
             <p>Visualization is the important way to present document analysis results for digital humanists to understand documents and get insights hidden in the great amount of text. During the summer, I focus on designing interactive visualization of sentiment analysis and document clustering results.</p>
-            <p> <strong> <i> 2018 Summer UX Intern @ Gale, Cengage Learning | Team of 2 with one Senior UX Designer | Duration: June, 2018 - Aug, 2018 | Tools: Axure, Sketch <br> Status: Designed the interactive visualizations for two analysis methods. A simplified version has been launched for test in the end of August 2018.</i></strong></p>
+            <p> <strong> <i> 2018 Summer UX Intern @ Gale, Cengage Learning | Team of 2 with one Senior UX Designer | Duration: June, 2018 - Aug, 2018 | Tools: Axure, Sketch <br> Status: Designed the interactive visualizations for two analysis methods. Under developing. A simplified version has been launched for test in the end of August 2018.</i></strong></p>
             <!-- <img src="../img/works/icfe/timeline.png" alt="timeline"> -->
         </div>
     </section>
@@ -102,239 +102,197 @@ gtag('config', 'UA-113651462-1');
         <div class="row">
             <div class="col-sm-12">
                 <h3>What is Digital Humanities? </h3>
-                <img class="col-md-10 col-md-offset-1" src="../img/works/dslab/dh.png" alt="Digital Humanists emerges from the field of humanities computing">
-                <p>Digital Humanities is the field where scholars works in the intersection of Humanities and Computing by applying digital tools and methods on digital materials from the humanities field. It's still a growing discipline with great potential and exciting opportunities, as well as challenges to overcome. How to find relevant data and content set, analyze materials with digital technologies, and collaborate are the challenges for most researchers and scholars, and that's what Digital Scholar Lab wants to help with. 
-                </p>
+                <img class="" src="../img/works/dslab/dh.png" alt="Digital Humanists emerges from the field of humanities computing" />
+                <p>Digital Humanities is the field where scholars works in the intersection of Humanities and Computing by applying digital tools and methods on digital materials from the humanities field. It's still a growing discipline with great potential and exciting opportunities, as well as challenges to overcome. For example, how to find relevant data and content set, analyze materials with digital technologies, and collaborate. </p>
+            </div>
+            <div class="col-sm-12">
                 <h3>Why visualization in Digital Scholar Lab?</h3>
+                <img src="../img/works/dslab/challenge.png" alt="quotes" />
                 <p>With the developing of digital technologies, like text mining, it's much easier for researchers and scholars to analyze a great amount of data together and get the hidden value. Visualization is an efficient way to communicate some complex and abstract ideas, and can be useful for both research and pedagogue.</p>
-                <p>"...another barrier is the complexity of the tools that you're using themselves. And often the installation and the use of multiple software packages can require significant amount of knowledge just to install and use... and something like learning a programming language like python or R is often out of scope for many humanities scholars and students." -- Sarah Ketchley, Digital Humanities Specialist
-                </p>
-                <p>"...they usually have an intimidated thought that they will have to learn how to code..." --  Wendy Kurtz， Digital Humanities Specialist</p>
                 <p>Digital Scholar Lab does not require any coding to help scholars who have no coding skills to analyze materials and visualize the results.</p>
             </div>
+            <div class="col-sm-12">
+                <h3>What is Sentiment Analysis?</h3>
+                <p>This summer I focus on design visualization for document clustering and sentiment analysis, here I'd like to share the design and process of sentiment analysis visualization as an example. 
+                </p>
+                <p>Sentiment analysis, also called opinion mining, aims to analyze and understand the attitude, the overall contextual polarity or the emotional reaction to the context of a speaker, writer... </p>
+                <h4>There are a lot of ways to apply sentiment analysis. How can Digital Scholar Lab help to analyze materials on different level and visualize results according to various user scenarios?</h4>
+            </div>
+            
         </div>
     </section>
 
-    <section id="overview" class="section-detail-layout container concept-overview">
+    <section id="overview" class="section-detail-layout container inverse">
         <h2 class="">Design Overview</h2>
-        <div class="row">
-            <div class="col-sm-6 video-layout">
+        <div class="col-sm-12" >
+            <div class="video-layout">
                 <video class="width80" autoplay loop>
-                    <source src="../img/works/icfe/onboard.mp4" type="video/mp4">
+                    <source src="../img/works/dslab/dataviz.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <div class="col-sm-6 video-text">
-                <p class="strong">1. Find - Setting Active Curriculum Standards</p>
+                <h4>Key Features: </h4>
                 <ul>
-                    <li>Set an active curriculum standard while on-boarding which will be applied to the future search. Usually an educator uses only one set of standard according to the grade, subject and the school requirement.</li>
-                    <li>Change the active curriculum standard. Educator may change the standard after a term.</li>
+                    <li>Text clean setting</li>
+                    <li>Overall sentiment/ polarity analysis of a corpus</li>
+                    <li>Sentiment/ polarity analysis on the document/ paragraph/ customized section level</li>
+                    <li>Sentiment development analysis of sequenced documents</li>
                 </ul>
             </div>
-        </div>
 
         <div class="row">
-            <div class="col-sm-6 video-layout">
-                <video class="width80" autoplay loop>
-                    <source src="../img/works/icfe/upload.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="col-sm-6 video-text">
-                <p class="strong">2. Find - Upload An Existing Curriculum Document</p>
-                <ul>
-                    <li>Upload the document. Educator usually has unit plans which links subjects areas with standards in hand.</li>
-                    <li>Analyze the document. The system automatically analyzes the document and extracts the teaching topics and standards, and does a batch search.</li>
-                    <li>Brose the materials aligned to related topics and standards. </li>
-                </ul>
-            </div>
+            
         </div>
 
-        <div class="row">
-            <div class="col-sm-6 video-layout">
-                <video class="width80" autoplay loop>
-                    <source src="../img/works/icfe/curate.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="col-sm-6 video-text">
-                <p class="strong">3. Curate - Create Collection and Collaborate</p>
-                <ul>
-                    <li>Add the selected materials to a collection.</li>
-                    <li>Manage the materials, collaborators and collections.</li>
-                    <li>Clip the material.</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12 ">
-              <p class="strong">4. Use materials</p>
-              <p> This need is not highlighted in the concept, because the first two features have been realized in current Gale products which can be easily integrated into the design. And the add-on feature is out of the current product scope.</p>
-              <ul>
-                  <li>Share the original or curated materials to Learning Management Systems.</li>
-                  <li>Download or print appropriate format of materials.</li>
-                  <li>Add-on feature: "decorate" the materials like embedding multimedia into a reading, linking reference readings to terminologies, and creating discussion on the teaching materials in a class.</li>
-              </ul>
-          </div>
-        </div>
     </section>
 
-        <section id="research" class="section-detail-layout container inverse">
+    <section id="research" class="section-detail-layout container">
           <h2>Research</h2>
-            <h3>Persona Mapping</h3>
-            <p class="sub-title">Prioritize user needs and define product scope</p>
+            <h3>Literature Review</h3>
+            <p class="sub-title">Understand the context of sentiment analysis and current applications</p>
             <div class="row">
+                <div class="col-sm-12">
+                    <h4>Example 1 </h4>
+                    <h5><a href="https://www.csc2.ncsu.edu/faculty/healey/tweet_viz/">Tweets sentiment analysis</a> and <a href="https://www.csc2.ncsu.edu/faculty/healey/tweet_viz/tweet_app/">live demo</a> | Detailed emotional distribution about a topic</h5>
+                    <img class="col-sm-offset-1 col-sm-10" src="../img/works/dslab/example.png" alt="tweet sentiment analysis">
+                </div>
+                <div class="col-sm-12">
+                    <h4>Example 2</h4>
+                    <h5>Chinese Sentiment analysis of a sentence with various outputs <a href="http://try.yuyidata.com">live demo</a> </h5><img class="col-sm-offset-1 col-sm-10" src="../img/works/dslab/example2.png" alt="tweet sentiment analysis">
+                </div>
+                <div class="col-sm-12">
+                    <h4>Example 3</h4>
+                    <h5>Left: Visualization of Sentiment change overtime of United Airlines’ PR Crisis based on Tweets <a href="http://ipullrank.com/step-step-twitter-sentiment-analysis-visualizing-united-airlines-pr-crisis/">demo</a> | Right: How public sentiment change regarding real-life events analyzed from Twitter data in a time-series diagram. </h5> 
+                    <img class="col-sm-offset-1 col-sm-10" src="../img/works/dslab/example3.png" alt="tweet sentiment analysis">
+                </div>
+
+                <div class="col-sm-12">
+                    <h4>Example 4</h4>
+                    <h5>Sentiment change over time displaying in a calendar view, every pixel represents one document</h5> 
+                    <img class="col-sm-offset-3 col-sm-6" src="../img/works/dslab/example4.png" alt="tweet sentiment analysis">
+                </div>
+                <div class="col-sm-12">
+                    <h4>Example 5</h4>
+                    <h5 >Top: The top issues discovered by the pattern detection algorithm. | Bottom: Time density plot that illustrates all comments related to the feature “password” with associated terms shown at the bottom and example comments on top.</h5>
+                    <img class="col-sm-offset-3 col-sm-6" src="../img/works/dslab/example5.png" alt="tweet sentiment analysis">
+                </div>
                 <div class="col-sm-12">
                     <p>After analyzing research results, we categorized and listed all user needs and created 12 personae for major needs. In order to prioritize user needs, in the meanwhile, define the scope of product and make sure it is sell-able and technical feasible, then we conducted a persona mapping session with VP, PM, tech lead, sales, marketing, and specialists to get one primary persona, two secondary personae and three tertiary personae.</p>
                 </div>
-                <h4 class="col-md-12">Primary Persona</h4>
-                <div class="row persona"><img class="" src="../img/works/icfe/p1.png" alt="Primary Persona Henry is a teacher who wants to find replacement materials"></div>
-                    <h4 class="col-md-12">Secondary Personae</h4>
-                    <div class="row persona">
-                        <div id="secondaryPersonae" class="carousel slide col-md-10" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="d-block w-100" src="../img/works/icfe/p2.jpg" alt="Secondary persona">
-                                </div>
-                                <div class="item">
-                                    <img class="d-block w-100" src="../img/works/icfe/p3.jpg" alt="Secondary Persona">
-                                </div>
-                                </div>
-                                    <a class="left carousel-control" href="#secondaryPersonae" role="button" data-slide="prev">
-                                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                      <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="right carousel-control" href="#secondaryPersonae" role="button" data-slide="next">
-                                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                      <span class="sr-only">Next</span>
-                                    </a>
-                        </div>
-                    </div>
-                    <h4 class="col-md-12">Tertiary Personae</h4>
-                    <div class="row persona">
-                        <div id="tertiaryPersonae" class="carousel slide col-md-10" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="d-block w-100" src="../img/works/icfe/p4.jpg" alt="Primary Persona Jack Jones who is a regular exercisers">
-                                </div>
-                                <div class="item">
-                                    <img class="d-block w-100" src="../img/works/icfe/p5.jpg" alt="Secondary Persona Magen Watts who wants to exercise for relax and health">
-                                 </div>
-                                <div class="item">
-                                    <img class="d-block w-100" src="../img/works/icfe/p6.jpg" alt="Secondary Persona Magen Watts who wants to exercise for relax and health">
-                                </div>
-                            </div>
-                            <a class="left carousel-control" href="#tertiaryPersonae" role="button" data-slide="prev">
-                              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                              <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#tertiaryPersonae" role="button" data-slide="next">
-                              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                              <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <section class="section-detail-layout container">
-            <h3>Roles and Goals Matrix</h3>
-            <p class="sub-title">Find overlapping and special needs</p>
-            <div class="row">
-                <div class="col-xs-12">
-                    <p>After persona mapping, I created a roles and goals matrix with hierarchic goals and the 6 selected personae. For each persona I marked all the possible goals. After finishing this matrix, some overlapping goals and special goals for some personae can be obvious. And the weight of each goal was different because of the importance of each persona, which should also be taken into consideration while ordering the goals. Through the matrix, we got the priority of goals, which are important to our product.</p>
-                    <ul>
-                      <li>Find curriculum standard aligned materials</li>
-                      <li>Create collections within the product</li>
-                      <li>Curate materials within a group I create</li>
-                      <li>Clip parts of the resources</li>
-                      <li>Annotate materials for the people I share with</li>
-                      <li>Download the resources in specific format</li>
-                      <li>Share materials to students</li>
-                    </ul>
-                    <!-- <a href="">View more details.</a> -->
-                    <img src="../img/works/icfe/matrix.png" alt="roles and goals matrix"/>
-                    <p class="notation">Roles and goals matrix. Dark red marks the uppermost goals, with light red for goals of the next level, and most specific goals with no background.</p>
-                </div>
             </div>
         </section>
-        <section class="section-detail-layout container">
-            <h3>User Scenario</h3>
-            <p class="sub-title">Understanding the context and all possible user paths</p>
-            <div class="row">
-                <div class="col-xs-12">
-                    <p>For each selected persona, we analyzed the user scenario, to be more specific, what materials they'll have in hand, how the materials related to curriculum, the anticipated user path and other objectives. </p>
-                    <img src="../img/works/icfe/Scenario.png" alt="user scenario"/>
-                    <p class="notation">All user Scenario</p>
-                    <p><b>Using our primary persona, Henry, as an example,</b> to achieve the same goal - finding replacement materials, there might be several different scenarios. For one case, when Henry has a school district scope and sequence, or a unit plan, he may need to find all materials related to the topics or standards in these documents and develop the course outline. If Henry is interested in a topic, he can search the topic to find materials and see how they tied to standards and integrate the topic into teaching. Similarly, if he has a specific standard or teaching objective to meet, he needs to find the materials align to it.</p>
-                    <img src="../img/works/icfe/scenarios.jpg" alt="Henry's user scenarios"/>
 
-                </div>
-            </div>
-        </section>
         <section class="section-detail-layout container">
-            <h3>Workflow</h3>
-            <p class="sub-title">Synthesize user paths for various design concepts</p>
+            <h3>Persona</h3>
+            <p class="sub-title">Design in the shoes of our users</p>
             <div class="row">
-                <div class="col-xs-12">
-                    <p>Based on the scenarios and important goals we got, we found there are several possible user paths. We together designed several variations and integrated into two concepts. I'll focus on the concept I was responsible for.</p>
-                    <!-- <img class="width80" src="../img/works/icfe/concepts.png" alt="Possible ways of filtering and searching"> -->
-                    <p>The main workflow, shown in the following image, is based on our primary persona Henry who has unit plan and curriculum standard related materials on hand. For Henry to plan the class outline it's tedious to search all replacement materials for each teaching topic and check the standard alignment to ensure that he's using the correct materials. So it'll be helpful for him to upload the existing document and got all related materials at one time. And it's based on the fact that most educators will only use one standard at one time, so the system will automatically apply the active standard to the search. But this is not a common way to do filter in the education products, future user evaluations are needed. So, another workflow will be set the standard filter before every search if needed and always search by topics, which developed by another designer. </p>
-                    <img src="../img/works/icfe/workflow.png" alt="workflow">
-                    <p class="notation">Main Workflow</p>
+                <div class="col-sm-12">
+                    <img src="../img/works/dslab/persona.png" alt="all personae">
+                    <p>For Digital Scholar Lab, six personae have been chosen. Ashley who is not that familiar with DH tools in general but aware of text analysis methods was been proven to be a major audience after the DSLab beta testing. So while designing the visualization tools, we should consider both users like Armando who have experience with collecting and analyzing data and major users like Ashley who are quite new to these analyzing tools.</p>
                 </div>
                
             </div>
         </section>
 
-        <section id="design" class="section-detail-layout container">
-            <h2>Final Design</h2>
+        
+        <section class="section-detail-layout container">
+            <h3>User Scenario</h3>
+            <p class="sub-title">Understanding the context and user paths</p>
             <div class="row">
-              <div class="col-xs-12">
-                <img src="../img/works/icfe/final1.png" alt="final1">
-                <img src="../img/works/icfe/final2.png" alt="final1">
-                <img src="../img/works/icfe/final3.png" alt="final1">
-              </div>
+                <div class="col-xs-12">
+                    <p>There are several user paths:</p>
+                    <img src="../img/works/dslab/paths.png" alt="user paths" />
+                    <p>As Ashley, I expect: </p>
+                    <p>To create a content set representing an event or topic within newspapers <b>sequenced by time</b></p>
+                    <ul>
+                        <li>From here I am able to discern sentiment at the article level</li>
+                        <li>I can also discern the overall sentiment of my content set</li>
+                    </ul>
+                    <p>To create a content set where I can discern sentiment <b>at the paragraph level within each monograph.</b></p>
+                    <ul>
+                        <li>I can discern a sentiment score at the paragraph level</li>
+                        <li>I can also discern the overall sentiment of my content set</li>
+                    </ul>
+                </div>
             </div>
+        </section>
+
+
+        <section id="final" class="section-detail-layout container">
+            <h2>Final Design</h2>
+            <p class="sub-title"></p>
+
+            <h3>Challenge 1</h3>
+            <h4>Analyze the Overall Sentiment of a Corpus</h4>
+            <div class="row">
+              <img class="col-xs-12" src="../img/works/dslab/overall.png" alt="overall"/>
+              <p class="col-xs-12">
+                The visualization shows the overall sentiment distribution of the whole corpus.   
+              </p>
+            </div>
+            <h5>Iterations</h5>
+            <div class="row">
+              <img class="col-xs-12" src="../img/works/dslab/iteration1.png" alt="iteration1"/>
+            </div>
+
+            <h3>Challenge 2</h3>
+            <h4>Analyze the Sentiment Change of a Corpus (Sequential Documents)</h4>
+            <div class="row">
+              <img class="col-xs-12" src="../img/works/dslab/change.png" alt="sequntial documents"/>
+              <p class="col-xs-12">
+                The visualization shows the overall sentiment distribution of the whole corpus.   
+              </p>
+            </div>
+            <h5>Iterations</h5>
+            <div class="row">
+              <img class="col-xs-12" src="../img/works/dslab/iteration2.png" alt="iteration1"/>
+            </div>
+
+            <h3>Challenge 3</h3>
+            <h4>Analyze on the Document Level</h4>
+            <div class="row">
+              <img class="col-xs-12" src="../img/works/dslab/doc.png" alt="document level"/>
+              <p class="col-xs-12">
+                The visualization shows the overall sentiment distribution of the whole corpus.   
+              </p>
+            </div>
+            <h5>Iterations</h5>
+            <div class="row">
+              <img class="col-xs-12" src="../img/works/dslab/iteration3.png" alt="iteration1"/>
+            </div>
+
+            <h3>Challenge 4</h3>
+            <h4>Detailed Analysis of a Document</h4>
+            <div class="row">
+              <img class="col-xs-12" src="../img/works/dslab/overlay.png" alt="overall"/>
+              <p class="col-xs-12">
+                The visualization shows the overall sentiment distribution of the whole corpus.   
+              </p>
+            </div>
+            <h5>Iterations</h5>
+            <div class="row">
+              <img class="col-xs-12" src="../img/works/dslab/iteration4.png" alt="iteration1"/>
+            </div>
+
+
         </section>
 
         <section id="reflection" class="section-detail-layout container">
             <h2>Reflection</h2>
             <div class="row">
                 <div class="col-md-12">
-                    <p>It's a little pity that I cannot follow the project from ideation to launch, but I really appreciate the opportunity to design for real-industry problems which are quite challenging but exciting. <b>Real-industry problems have many limitations</b> which I may not think about before. For example, we usually will not release sudden changes during midterm to avoid training costs for our customers, and all the copyright issue behind sharing in our products. </p>
-                    <p> What's more, I realized the difficulty of <b>designing a new product</b>. We spent two months analyzing research results, creating our personae and defining the scope of product. And <b>involved people from other groups</b> in several important meetings to get everyone on the same page, decide the overall project time-line, technical feasibility, and so on. And I learned to create personae based on a rich search result with great variety and map personae taking suggestions from different perspectives.</p>
-                    <h4>If I have more time...</h4>
-                    <ul>
-                      <li>Do <b>user evaluations</b> to test on our various concepts and <b>iterate</b>.</li>
-                      <li>Curriculum standards and materials alignment is a great <b>technical challenge</b> for our product, which also leads to possible design decisions to compensate the inaccuracy of algorithm. </li>
-                      <li>Although Cengage has a rich database of primary resources, articles, books, and so on, we do not have enough supplemental materials, such as lesson plans, class activities, which need specialists to create for now. Maybe in we can make use of <b>user generate content</b>, and let users to assign materials to standards in the future. But how to assess that the alignment is reliable can be another question.</li>
-                    </ul>
+                    <p>Designing and testing visualization is a little bit different. Since for people new to visualization they may not so sure about what's the most efficient way for them. So <b>at early stage, visualization and DH experts can provide much more valuable feedbacks</b> based on their experience. And when a relative complete design is created, <b>the major users who are new to the tools should be involved into evaluation</b> to test whether it's easier to learn and understand.</p>
+                    <p>While designing visualization, I should <b>balance the design and development</b>. Based on the tech stack the development team is using and development timeline, some visualization might not be able to delivery, so it's important to consider all these in the beginning. Some design might be able to realized easily based on the current tech stack, some design might need extra investment. For example, the sentiment overlay is not a common visualization and need extra effort for the development team to realize. But after evaluations with users, DH specialists, product team, development team and other related teams, it was a feature worth extra investment.</p>
+                    <p>If I have more time I want to do <b>more user evaluations</b> with DH students to mainly test whether <b>text clean settings and visualization are understandable</b>, how to better categories the visualization (group by analysis level or by context).</p>
                 </div>
-
-                <div class='col-sm-12 pics_in_a_row'>
-                  <div class='img1'>
-                    <img src="../img/works/icfe/research0.jpg" alt="researh analysis">
-                  </div>
-                  <div class='img2'>
-                    <img src="../img/works/icfe/mapping.jpg" alt="researh analysis">
-                  </div>
-                  <div class='img3'>
-                    <img src="../img/works/icfe/flow0.jpg" alt="researh analysis">
-                  </div>
-                  <div class='img4'>
-                    <img src="../img/works/icfe/story0.jpg" alt="researh analysis">
-                  </div>
-                </div>
-                <p class="col-sm-12 notation">Research Analysis, Personae Creation, Workflow Analysis, Workflow and Sketch</p>
             </div>
         </section>
         <section class="container work-detail-footer">
             <div class="row">
-                <a class="col-xs-6 disabled" href="its.html"> &lt; ITS Contextual Inquiry</a>
+                <a class="col-xs-6" href="icfe.html"> &lt; In Context for Educators</a>
                 <!-- <a class="col-xs-6 disabled" href="graphic.html"> &lt; Graphic Design</a> -->
                 <!-- <a class="col-xs-6" href="dslab.html">DSLab Visualization &gt;</a> -->
-                <a class="col-xs-6" href="mgym.html">MGym &gt;</a>
+                <a class="col-xs-6" href="eatjoy.html">EatJoy &gt;</a>
             </div>
         </section>
         <footer class="footer">
