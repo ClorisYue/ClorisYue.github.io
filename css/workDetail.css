@@ -13,10 +13,6 @@
 }
 
 
-.overview div div p {
-  /*padding-left : 1em;*/
-}
-
 /* title & footer */
 
 .work-detail-title a {
@@ -209,12 +205,24 @@
 .dslab #research h4{
   margin-bottom: 0;
 }
-
+.dslab #final .sub-title {
+  margin-top: 2em;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: 600;
+}
+.dslab #final h3{
+  margin-top: 0;
+  padding-top: 0;
+  /*color:#013964;*/
+}
 .work-detail.dslab .inverse video {
   margin-top: 5%;
   margin-bottom: 5%;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
 }
+
 /* AVA */
 
 .work-detail.ava .inverse {
@@ -231,22 +239,27 @@
 .eatjoy h2 {
   color: #91CEAD;
 }
-.eatjoy .work-detail-footer {
-  background-color: #91CEAD;
-  color: #333; 
-}
-.eatjoy #design div h3{
-  /*color: #91CEAD;*/
-}
-.eatjoy #design div h4{
+.eatjoy #final div h4{
   color: #91CEAD;
 }
-.eatjoy #design img {
+.eatjoy #final img {
   margin-bottom: 8%;
 }
 
-/* MGym */
+.eatjoy #final .sub-title {
+  margin-top: 2em;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: 600;
+}
+.eatjoy #final h3{
+  margin-top: 0;
+  padding-top: 0;
+  /*color: #91CEAD;*/
+}
 
+/* MGym */
 
 .mgym .usertest div div div:last-child {
   margin-top : 1.5em;
@@ -274,10 +287,6 @@
 }
 
 /* its * */
-
-.its .overview h4 {
-  border-left : 5px #1d4587 solid;
-}
 
 .work-detail.its h3 {
   color : #1d4587;
