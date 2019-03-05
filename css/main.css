@@ -121,6 +121,12 @@ p::-moz-selection {
 }
 
 /* intro */
+section.brief {
+  position: absolute;
+  top: 18%;
+  right: 3%;
+}
+
 .hero-img {
   width: 100%;
 }
@@ -368,7 +374,7 @@ header {
 header .header-content {
   width              : 100%;
   margin             : 0 auto;
-  padding            : 55px 10%;
+  padding            : 4% 8%;
   -moz-transition    : padding 0.3s;
   -o-transition      : padding 0.3s;
   -webkit-transition : padding 0.3s;
@@ -381,7 +387,7 @@ header.fixed {
 }
 
 header.fixed .header-content {
-  padding       : 25px 10%;
+  padding       : 2% 4%;
   border-bottom : 0;
 }
 
