@@ -51,6 +51,9 @@ section p {
   color       : #555;
   font-size   : 1.2em;
   line-height : 1.8em;
+  /*margin-bottom: 1em;*/
+}
+section p {
   margin-bottom: 1em;
 }
 
@@ -107,6 +110,10 @@ h2.mainproblem {
 
 .white {
   color: #fff;
+}
+
+.gray-bg {
+  background-color: #f8f8f8;
 }
 /* webkit, opera, IE9 */
 
