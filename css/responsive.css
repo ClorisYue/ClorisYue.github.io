@@ -4,18 +4,6 @@
 
 /*IPAD*/
 @media screen and (max-width: 768px) {
-	.work-item {
-		padding: 10px;
-	}
-	.work-item .caption {
-        position: absolute;
-    	height: 50%;
-   		top: 50%;
-    	left: 0%;
-    }
-	.work-item .caption .work-title {
-		bottom: 16%;
-	}
 	header .header-content {
 		width: 90%;
 	}
@@ -67,11 +55,19 @@
 	.navigation, .navigation a {
 		margin-left: 0px;
 	}
-	.intro-text {
-		width: 75%;
-        	padding-top: 0;
-        	padding-bottom: 0;
-        	top:50%;
+
+
+	.skill-card:nth-child(1) {
+	  width:100%;
+	  /*margin-right:1%;*/
+	}
+	.skill-card:nth-child(2) {
+	  width:49.5%;
+	  margin-right:1%;
+	}
+	.skill-card:nth-child(3) {
+	  width:49.5%;
+	  clear: right;
 	}
 }
 @media screen and (max-width: 576px) {
