@@ -80,6 +80,7 @@ gtag('config', 'UA-113651462-1');
                 <li><a href="#literature">Literature Review</a></li>
                 <li><a href="#persona">Persona</a></li>
                 <li><a href="#scenario">User Scenario</a></li>
+                <li><a href="#iteration">Major Iterations</a></li>
                 <li><a href="#final">Final Design</a></li>
                 <li><a href="#reflection">Reflection</a></li>
             </ul>
@@ -128,7 +129,7 @@ gtag('config', 'UA-113651462-1');
                 <ul>
                     <li>Text clean setting</li>
                     <li>Overall sentiment analysis of a corpus</li>
-                    <li>Sentiment analysis at the document/ paragraph/ customized chunks level</li>
+                    <li>Sentiment analysis of a document at section level</li>
                     <li>Sentiment analysis of sequenced documents</li>
                 </ul>
             </div>
@@ -208,19 +209,50 @@ gtag('config', 'UA-113651462-1');
                 </div>
             </div>
         </section>
+        <section id="iteration" class="section-detail-layout container">
+            <h2>Major Iterations</h2>
+            <p>I went through 2 rounds design evaluation with data visualization and digital humanity specialists major iterations, and several rounds evaluation with senior designer, PM and tech team.</p>
+            <h3>Show overall sentiment of a content set</h3>
+            <div class="row">
+                <img class="col-xs-12" src="../img/works/dslab/iteration1.png" alt="iteration1"/>
+                <div class="col-xs-12">
+                    <ul>
+                    <li><strong>Use only polarity as outputs</strong>, since there is technical limitation on analyzing the detailed emotions among a great amount of documents accurately.</li>
+                    <li><strong>Use bar chart instead of donut chart</strong>, since users care more about the amount. And bar chart can be great for comparison.</li>
+                    </ul>
+                </div>
+            </div>
+        <!-- </section> -->
+         <!-- <section class="section-detail-layout container"> -->
+            <div style="height:3em;"></div>
+            <h3>Show sentiment analysis results of a document at section level</h3>
+            <div class="row">
+                <img class="col-xs-12" src="../img/works/dslab/iteration4.png" alt="iteration2"/>
+                <div class="col-xs-12">
+                    <ul>
+                    <li><strong>Mark the document </strong> to connect analysis with the content and help scholar to understand the analysis, especially helpful for pedagogical purpose.</li>
+                    <li>Mark the document <strong>by section</strong> in stead of marking the keywords because of user scenario and technical limitation.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        
+
+      
         <section id="final" class="section-detail-layout container">
             <h2>Final Design</h2>
-            <p class="sub-title"></p>
+            <h3>Understand sentiment of text at different levels with data visualization.</h3>
 
             <p class="sub-title">Challenge 1</p>
-            <h3>Discern the overall sentiment, when user creates a content set of a topic or event</h3>
+            <h3>Discern the overall sentiment of a content set of a topic or event.</h3>
             <div class="row">
                 <img class="col-xs-12" src="../img/works/dslab/overall.png" alt="overall"/>
                 <p class="col-xs-12">
                     Bar chart is used to show the <strong>number of documents fall into the five polarity levels</strong>, strongly negative, negative, neutral, positive, strongly positive. Click on the bar to view all documents within the content set that have the corresponding sentiment.
                 </p>
             </div>
-            <h4>Iterations</h4>
+           <!--  <h4>Iterations</h4>
             <div class="row gray-bg">
                 <img class="col-xs-12" src="../img/works/dslab/iteration1.png" alt="iteration1"/>
                 <div class="col-xs-12">
@@ -230,18 +262,18 @@ gtag('config', 'UA-113651462-1');
                     <li><strong>Change the visualization color palette</strong>, since red gives a more negative feeling and green more positive.</li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
         </section>
         <section class="section-detail-layout container">
             <p class="sub-title">Challenge 2</p>
-            <h3>Know the sentiment overtime of a topic or event by analyzing a set of sequential documents</h3>
+            <h3>Know the sentiment overtime of a topic or event by analyzing a set of sequential documents.</h3>
             <div class="row">
                 <img class="col-xs-12" src="../img/works/dslab/change.png" alt="sequntial documents"/>
                 <p class="col-xs-12">
-                    The line chart can most efficiently show the sentiment change overtime. The top graph uses each document's polarity, and the bottom graph uses the average polarity of each decade to show the mainstream sentiment change of that topic/events.
+                    The line chart can most efficiently show the sentiment overtime. The top graph uses each document's polarity, and the bottom graph uses the average polarity of each decade to show the mainstream sentiment change of that topic/events.
                 </p>
             </div>
-            <h4>Iterations</h4>
+            <!-- <h4>Iterations</h4>
             <div class="row gray-bg">
                 <img class="col-xs-12" src="../img/works/dslab/iteration2.png" alt="iteration1"/>
                 <div class="col-xs-12">
@@ -251,35 +283,25 @@ gtag('config', 'UA-113651462-1');
                     <li><strong>Use the size of the dot to represent the number of documents</strong> in that decades in the third graph.</li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
         </section>
         <section class="section-detail-layout container">
             <p class="sub-title">Challenge 3</p>
-            <h3>Discern the overall sentiment of the content set at paragraph (or other user defined chunks) level of each document</h3>
+            <h3>Discern the sentiment of each document in a content set at section (sentence, paragraph, or other user defined chunks) level.</h3>
             <div class="row">
                 <img class="col-xs-12" src="../img/works/dslab/doc.png" alt="document level"/>
                 <p class="col-xs-12">
-                    The visualization shows the overall sentiment distribution, key sentiment words and sentiment change of each document in the whole corpus. User can click each card to view the detail of the document.</strong>
+                    The visualization shows the overall sentiment distribution, key sentiment words and sentiment change analyzed by section of each document in the whole content set. User can click each card to view the detail of the document within content.</strong>
                 </p>
             </div>
-            <h4>Iterations</h4>
-            <div class="row gray-bg">
-                <img class="col-xs-12" src="../img/works/dslab/iteration3.png" alt="iteration1"/>
-                 <p class="col-xs-12">
-                    Use the combined bar and line chart instead. <strong>Knowing the sentiment by chunks</strong> can be more meaningful instead of general data while analyzing on document level.
-                </p>
-            </div>
-        </section>
-        <section class="section-detail-layout container">
-            <p class="sub-title">Challenge 4</p>
-            <h3>Discern the sentiment at paragraph(or sentence, and other user defined chunks) level of the document</h3>
+
             <div class="row">
                 <img class="col-xs-12" src="../img/works/dslab/overlay.png" alt="overall"/>
                 <p class="col-xs-12">
-                    On the document/article page, add a visualization summary panel under the existing DOC EXPLORER. The visualization contains three parts, <strong>the sentiment overlay, the overall sentiment of the document, and the sentiment development of the document.</strong> The sentiment overlay will highlight the document with corresponding colors by chunk. The overall sentiment shows the number of chunks of the polarity levels. The sentiment development has a zoom-in view of the sentiment development of the current page and a scope controller showing the development of the whole document and a sliding window which can direct to the specific page.
+                    On the document/article page, a visualization summary panel is added under the existing DOC EXPLORER. The visualization contains three parts, <strong>the sentiment overlay, the overall sentiment, and the sentiment development of the document.</strong> The sentiment overlay will highlight the document with corresponding colors by chunk. The overall sentiment shows the number of chunks of the polarity levels. The sentiment development has a zoom-in view of the sentiment development of the current page and a scope controller showing the development of the whole document and a sliding window which can direct to the specific page.
                 </p>
             </div>
-            <h4>Iterations</h4>
+            <!-- <h4>Iterations</h4>
             <div class="row gray-bg">
                 <img class="col-xs-12" src="../img/works/dslab/iteration4.png" alt="iteration1"/>
                 <div class="col-xs-12">
@@ -288,11 +310,11 @@ gtag('config', 'UA-113651462-1');
                     <li>But when the document is long, the side panel may not be perfect to fit the visualization.</li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
         </section>
         <section class="section-detail-layout container">
-            <p class="sub-title">Challenge 5</p>
-            <h3>Set and adjust text clean parameters for sentiment analysis</h3>
+            <p class="sub-title">Challenge 4</p>
+            <h3>Set and adjust text clean parameters for sentiment analysis.</h3>
             <div class="row">
                 <img class="col-xs-12" src="../img/works/dslab/setting.png" alt="text clean setting"/>
                 <p class="col-xs-12">
@@ -306,17 +328,20 @@ gtag('config', 'UA-113651462-1');
             <h2>Reflection</h2>
             <div class="row">
                 <div class="col-md-12">
-                    <p>Designing and testing visualization is a little bit different. Since for people new to visualization they may not so sure about what's the most efficient way for them. So <b>at early stage, visualization and DH experts can provide much more valuable feedbacks</b> based on their experience. And when a relative complete design is created, <b>the major users who are new to the tools should be involved into evaluation</b> to test whether it's easier to learn and understand.</p>
-                    <p>While designing visualization, <b>design and development should be balanced</b>. Based on the tech stack the development team is using and development timeline, some visualization might not be able to delivery, so it's important to consider all these in the beginning. Some design might be able to realized easily based on the current tech stack, some design might need extra investment. For example, the sentiment overlay is not a common visualization and need extra effort for the development team to realize. But after evaluations with users, DH specialists, product team, development team and other related teams, it was a feature worth extra investment.</p>
-                    <p>If I had more time I'd like to do <b>more user evaluations</b> with DH students to mainly test whether <b>text clean settings and visualization are understandable</b>, how to better categories the visualization (group by analysis level or by context).</p>
+                    <h3>Designing and testing visualization is a little bit different. </h3>
+                    <p>Since for people new to visualization they may not so sure about what's the most efficient way for them. So <b>at early stage, visualization and DH experts can provide much more valuable feedbacks</b> based on their experience. And when a relative complete design is created, <b>the major users who are new to the tools should be involved into evaluation</b> to test whether it's easier to learn and understand.</p>
+                    <h3>Balancing design and development</h3> 
+                    <p>Based on the tech stack the development team is using and development timeline, some visualization might not be able to delivery, so it's important to consider all these in the beginning. Some design might be able to realized easily based on the current tech stack, some design might need extra investment. For example, the sentiment overlay is not a common visualization and need extra effort for the development team to realize. But after evaluations with users, DH specialists, product team, development team and other related teams, it was a feature worth extra investment.</p>
+                    <h3>If I had more time I'd like to do more user evaluations with DH students.</h3> 
+                    <p>Since the design concept is mainly tested with specialists, the next step is to test whether <b>text clean settings and visualization are understandable for pedagogical purpose</b>, and how to better categories the visualization (group by analysis level or by context).</p>
                 </div>
             </div>
         </section>
         <section class="container work-detail-footer">
             <div class="row">
                 <!-- <a class="col-xs-6" href="graphic.html"> &lt; Graphic Design</a> -->
-                <a class="col-xs-6" href="its.html"> &lt; Contextual Inquiry</a>
-                <a class="col-xs-6" href="eatjoy.html">EatJoy &gt;</a>
+                <a class="col-xs-6" href="eatjoy.html"> &lt; EatJoy</a>
+                <a class="col-xs-6" href="icfe.html"> In Context for Educators &gt;</a>
             </div>
         </section>
         <footer class="footer">
