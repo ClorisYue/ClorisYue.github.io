@@ -193,6 +193,9 @@
   font-size : 2em;
 }
 
+.padding-bottom {
+  padding-bottom: 2.5em;
+}
 /* DSLAB*/
 .work-detail.dslab .inverse {
   background-color: #013964;
