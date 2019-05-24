@@ -231,7 +231,7 @@ section.brief {
 }
 .works .work-item {
   margin-top: 10%;
-  margin-bottom: 28%;
+  margin-bottom: 25%;
   height: 55vh;
   min-height: 40rem;
   max-height: 46rem;
@@ -280,6 +280,7 @@ section.brief {
 }
 .works .work-item.ava {
   background-color: #4A4A4A;
+  margin-bottom: 20%;
 }
 .work-item img {
   width          : 100%;
@@ -362,7 +363,7 @@ section.brief {
 /* footer */
 
 .main-footer {
-  margin-top: 30%;
+  margin-top: 15%;
   padding-bottom: 0 !important;
   background: rgb(117,158,206);
   background: linear-gradient(51deg, rgba(117,158,206,1) 0%, rgba(133,171,216,1) 100%);
