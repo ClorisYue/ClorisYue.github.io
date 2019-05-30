@@ -74,9 +74,9 @@ gtag('config', 'UA-113651462-1');
         <nav class="nav navbar-nav side-nav" id="side-nav" role="navigation">
             <ul class="nav-items theme-text">
                 <li><a href="#brief">Brief</a> </li>
-                <li><a href="#background">Background & Challenge</a></li>
                 <li><a href="#overview">Design Overview</a></li>
-                <li><a href="#research">Research</a></li>
+                <li><a href="#background">Background & Challenge</a></li>
+                <li><a href="#research">Research Analysis</a></li>
                 <li><a href="#design">Design Process</a></li>
                 <li><a href="#final">Design Details</a></li>
                 <li><a href="#reflection">Reflection</a></li>
@@ -140,18 +140,29 @@ gtag('config', 'UA-113651462-1');
         <h3>Their voice is just as important as any other voter’s voice. What can we do to improve the accessibility of voting process for the visual impaired community and transformed the voting experience?</h3>
     </section>
     <section id="research" class="section-detail-layout container">
-        <p class="sub-title">Interviews</p>
+        <p class="sub-title">Interview Insights</p>
         <h3>The right to vote independently and vote at home is valued.</h3>
         <div class="row">
             <div class="col-sm-12">
                 <p>
-                    We conducted interviews on five experts from different disability organizations and communities for guidance, including Washtenaw County Clerk, Ann Arbor Center for Independent Living and people with disability. We found people valued <strong>the right to vote independently, the disabled as well.</strong> And according to the background research and field study mentioned above, the visual impaired has special needs to fulfill the right, and preferred to <strong>vote at home</strong> due to the difficulty of transportation. <strong>Voice commands</strong> can help them with non personal information, but <strong>screen input</strong> is preferred for personal information. <strong>UI with strong contrast and large font</strong> is needed especially for some visual impaired individuals.
-                </p>
+                    We conducted interviews on five experts from different disability organizations and communities for guidance, including Washtenaw County Clerk, Ann Arbor Center for Independent Living and people with disability. We found</p>
+                    <ul>
+                        <li>
+                            People valued <strong>the right to vote independently, the disabled as well.</strong>
+                        </li>
+                        <li>
+                            The visual impaired preferred to <strong>vote at home</strong> due to the difficulty of transportation.
+                        </li>
+                        <li>
+                            <strong>Voice commands</strong> can help them with non personal information, but <strong>screen input</strong> is preferred for personal information. <strong>
+                        </li>
+                        <li>UI with strong contrast and large font</strong> is needed especially for some visual impaired individuals.</li>
+                </ul>
             </div>
             <div class="col-sm-12">
                 <p class="sub-title">Persona</p>
                 <h3>The totally blind and other visual impaired individuals have different preference of the UI and interactions.</h3>
-                <p>We found especially for the visual impaired individuals, doing absentee voting at home independently was a big problem. In the United States, visual impairments can be classified to partially sighted, low vision, legally blind and totally blind [from <a href="https://en.wikipedia.org/wiki/Visual_impairment#United_States">wikipedia</a>]. During the interviews we found, compared with the totally blind, other visual impaired people can still see things in a blurred vision. For example, the interviewee tried to view the mobile screen by <b>putting the mobile phone quite close to her eyes</b> so she doesn't need to rely on the screen reader completely. Also, she's much familiar with the screen interactions than the totally blind interviewee. So we decided to separate them as two groups: <strong>the totally blind and other visual impaired individuals</strong>.</p>
+                <p>We found especially for the visual impaired individuals, doing absentee voting at home independently was a big problem. During the interviews we found, compared with the totally blind, other visual impaired people can still see things in a blurred vision. And some of them may be much familiar with the screen interactions than the totally blind interviewee. So we decided to separate them as two groups: <strong>the totally blind and other visual impaired individuals</strong>.</p>
             </div>
             <div id="avaCarousel" class="carousel slide col-md-offset-1 col-md-10" data-ride="carousel">
                 <div class="carousel-inner">
@@ -176,7 +187,7 @@ gtag('config', 'UA-113651462-1');
     <section id="design" class="section-detail-layout container">
         <h2>Design Process</h2>
         <p class="sub-title">Ideation & Sketching</p>
-        <h3>Brainstormed from the devices perspective and decided constraints for this practical problem. </h3>
+        <h3>Device, laws and secure can be the major constraints for this practical problem. </h3>
         <div class="row">
             <div class="col-sm-12">
                 <p>From the perspective of the devices, we basically brainstormed our solutions from three directions -- a customized device, a customized template with a corresponding App, and an App connecting users and officers.</p>
@@ -207,31 +218,37 @@ gtag('config', 'UA-113651462-1');
         </div>
     </section>
     <section class="section-detail-layout container">
-        <p class="sub-title">Prototyping</p>
-        <h3></h3>
+        <p class="sub-title">Prototyping & Usability Testing</p>
+        <h3>Hand writing is not an accessibile way for all individuals, while combing with on-screen interactions voice interaction can be a way with more posibilities.</h3>
         <div class="row">
             <div class="col-xs-12">
-                <p>After validating our design concepts with our target users, we started to create two medium-fidelity prototypes which focused more on testing the usability, functionality and voice commands of our App. And we wrote scripts for the voice commands.
-                </p>
-                <p>We decided two prototypes according to the two possible ways of filling out the paper ballots. The first one is a sample ballot with an App which can track the position of the pen with the help of camera and image processing. The App will give commands on how to move and black the box by hand to the user. The second one is an App which can let voters to vote by voice commands and print the result on the original received paper ballot. We created a script of voice commands and a simple UI for testing.</p>
-                <p>After several usability testings which is described in detail in the next section, we iterated on a high-fidelity prototype which focused more on the accuracy of voice commands, and the UI design.</p>
+                <!-- <p>After validating our design concepts with our target users, we started to create two medium-fidelity prototypes which focused more on testing the usability, functionality and voice commands of our App. And we wrote scripts for the voice commands.
+                </p> -->
+                <p>We decided two prototypes according to the two possible ways of filling out the paper ballots. </p>
+                <ol>
+                    <li>A sample ballot with an App which can track the position of the pen with the help of camera and image processing. The App will give commands on how to move and black the box by hand to the user. </li>
+                    <li>An App which can let voters to vote by voice commands and print the result on the original received paper ballot. We created a script of voice commands and a simple UI for testing.</li></ol>
             </div>
             <div class="col-md-offset-1 col-md-10">
                 <img alt="" src="../img/works/ava/interface0.jpg" />
-                <p class="notation">Fig. Some frameworks of key interfaces</p>
+                <p class="notation">Fig. Frameworks of key interfaces</p>
             </div>
         </div>
-    </section>
-    <section class="section-detail-layout container">
-        <p class="sub-title">Usability Testing</p>
-        <p class="sub-title"></p>
+    
         <div class="row">
             <div class="col-xs-12">
                 <p>We conducted 2 rounds (7 in total) usability testing with the visual impaired individuals (two blind, one low vision) and three normal people.</p>
                 <p> Firstly, we tested on normal people about the general process while building our prototype. For example, we let them close eyes to pretend they were blind and listened to our commands to move their pens to the check boxes on paper to see whether they can understand our commands and black the boxes successfully. </p>
                 <p> Then after we built our medium-fidelity prototypes, we conducted testing with the totally blind and other visual impaired individuals on the two solutions mentioned. We used <strong> The Wizard of Oz</strong> method to test, which one of our team member read the commands according to the user's actions, instead of developing interactive voice controllable prototype.</p>
-                <p> The results showed that different users interpreted the commands of moving hands quite differently, so standardizing commands become difficult. Also, we got some important feedbacks, for example, there would be write-in fields on paper ballot, so <b>it's impossible for those who cannot write characters to fill out the ballot by hand</b> independently. And due to different listening habits and abilities, our commands should be modified a lot to match their habits. At first we wanted the voice commands to be nice and human-like, but <b>they usually caught the keywords in the sentences</b>, and a simple but clear command is more important to be "friendly". And the <b>speaking speed of their screen reader is so fast</b>, and it's even hard for the native speaker in our group to recognize. </p>
-                <p> As a result, we decided that using a printer to mark out the boxes can be a better choice. A GUI with larger font and strong contrast is still needed. And modified the voice commands and incorporated the system screen reader they used so that they can set it according to their preference more easily.</p>
+                <p> The results showed <p>
+                <ul>
+                <li> Different users interpreted the commands of moving hands quite differently, so standardizing commands become difficult.</li> 
+                <li> There would be write-in fields on paper ballot, so <b>it's impossible for those who cannot write characters to fill out the ballot by hand</b>  independently. </li>
+                <li> Our commands should be modified a lot to match their habits. At first we wanted the voice commands to be nice and human-like, but <b>they usually caught the keywords in the sentences</b>, and a simple but clear command is more important to be "friendly". And the <b>speaking speed of their screen reader is fast</b> (it's even hard for the native speaker in our group to recognize). </li>
+                <li>The voice assistant should be consistant with the system screen reader they used so that they can set it according to their preference.</li>
+                </ul>
+
+                <p> As a result, we decided that using a printer to mark out the boxes can be a better choice. A GUI with larger font and strong contrast is still needed. </p>
             </div>
             <div class="col-xs-6">
                 <img alt="User Testing on filling out the box" src="../img/works/ava/test1.jpg" />
@@ -259,7 +276,7 @@ gtag('config', 'UA-113651462-1');
                 <img alt="Launch AVA" src="../img/works/ava/launch.jpg" />
             </div>
             <div class="col-md-12">
-              <h5>[Voice Commands]</h5>
+              <h5>[Voice Command Example]</h5>
               <p>“Hello! I am your absentee voting assistant! I am here to help you fill out your ballot!”</p>
               <p>“If you want me to skip the sentence I’m saying now, please say “SKIP” or hit the Skip button. If you want me to repeat the sentence I just said, please say “REPEAT” or hit the Repeat button.” </p>
             </div>
@@ -272,7 +289,7 @@ gtag('config', 'UA-113651462-1');
                     <img alt="Input State, Ward, Precinct information" src="../img/works/ava/address.jpg" />
                 </div>
                 <div class="col-md-12">
-                    <h5>[Voice Commands]</h5>
+                    <h5>[Voice Command Example]</h5>
                     <p>"First, we need to pull up the correct ballot."</p>
                     <p>"What’s your state? Spell the state out or type it in using the keyboard." <br>
                     "Is your state Michigan? Say “Yes” or click the “Confirm” button to continue. Otherwise say “Edit” or click the “Edit” button to change. ..."</p>
@@ -285,12 +302,12 @@ gtag('config', 'UA-113651462-1');
                 <div class="col-md-offset-4 col-md-4">
                     <img alt="Input State, Ward, Precinct information" src="../img/works/ava/instructions.jpg" />
                 </div>
-                <div class="col-md-9">
+                <!-- <div class="col-md-9">
                     <h5>[Voice Commands]</h5>
                     <p>"Pull up the ballot successfully."</p>
                     <p> "Now, let me read the instructions on the ballot, please say “Skip” or hit Skip button to skip the instructions."<br> "You can re-listen to the instructions by saying ‘Repeat’ or hitting the Repeat button."</p>
                     <p>"OK, let’s continue to the voting process."</p>
-                </div>
+                </div> -->
 
                 <div class="col-md-12">
                     <h4 class="strong">4. Vote</h4>
@@ -300,12 +317,12 @@ gtag('config', 'UA-113651462-1');
                 <div class="col-md-offset-2 col-md-8">
                     <img alt="Vote" src="../img/works/ava/vote.jpg" />
                 </div>
-                <div class="col-md-12">
+                <!-- <div class="col-md-12">
                     <h5>[Voice Commands]</h5>
                     <p>"You are voting for the City General Election, There are 2 votes you need to do based on your precinct." </p>
                     <p> "election 1: Partisan section, City, Council Member first ward, vote for not more than one. The candidates are: Number one Bayley Stinnette, Number two Mark Green, Number three Nate Tyler, and Number four for a write in. Please tell me the number for which you wish to vote, or type it on the keyboard."</p>
                     <p> "OK, you chose Number Two, Mark Green. Say “Confirm” to continue. Say “Edit” to change your selection."</p>
-                </div>
+                </div> -->
 
                 <div class="col-md-12">
                     <h4 class="strong">5. Confirm and print</h4>
@@ -314,7 +331,7 @@ gtag('config', 'UA-113651462-1');
                 <div class="col-md-offset-2 col-md-8">
                     <img alt="confirm vote resuts and print" src="../img/works/ava/print.jpg" />
                 </div>
-                <div class="col-md-12">
+                <!-- <div class="col-md-12">
                     <h5>[Voice Commands]</h5>
                     <p> "Now, I want to confirm your choices. For election 1, partisan section, city, council member first ward, you chose xxx. For election 2, proposal xxx, you chose No. Please say “confirm” to confirm; say “edit” to change your choices."</p>
                     <p>"Now, let’s print out your choices on the ballot. Before that, can I open the bluetooth and link to your printer?"</p>
@@ -322,7 +339,7 @@ gtag('config', 'UA-113651462-1');
                       <b>(If ballot not completely in the scan)</b> “Please bring the phone higher/lower.”<br>
                       <b>(If the ballot is flipped)</b> "Your ballot is flipped over. Flip it back to the correct orientation."</p>
                     <p>"Now, Say “print” or click the “print” button on the center of the screen." </p>
-                </div>
+                </div> -->
 
                 <div class="col-md-12">
                     <h4 class="strong">6. Confirm printing result and mail</h4>
@@ -331,13 +348,13 @@ gtag('config', 'UA-113651462-1');
                 <div class="col-md-offset-3 col-md-6">
                     <img alt="confirm printing resuts and mail back" src="../img/works/ava/confirm.jpg" />
                 </div>
-                <div class="col-md-12">
+                <!-- <div class="col-md-12">
                     <h5>[Voice Commands]</h5>
                     <p>"First, Please say scan or hit the scan button on the screen to start scan the ballot. Then, hold your phone up over the ballot to let me check the choices you made. Now, follow my instructions. Move the phone a little Higher, higher, lower, forward, backward, backward. OK."</p>
                     <p>"This is the right side of the ballot, your choice is: For election 1, partisan section, city, council member first ward, you chose Number Two Mark Green. For election 2, proposal Wayne county community public safety preservation millage, you chose No."</p>
                     <p>"If there are any mistakes, you can call your local clerk to request a new ballot by saying 'clerk'."</p>
                 </div>
-
+ -->
                                     <div class="row">
                                         <div class="col-xs-12">
                                             <h4 class="strong">Key features:</h4>
