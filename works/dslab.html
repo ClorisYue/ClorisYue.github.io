@@ -80,7 +80,7 @@ gtag('config', 'UA-113651462-1');
                 <li><a href="#literature">Literature Review</a></li>
                 <li><a href="#persona">Persona</a></li>
                 <li><a href="#scenario">User Scenario</a></li>
-                <li><a href="#iteration">Major Iterations</a></li>
+                <!-- <li><a href="#iteration">Major Iterations</a></li> -->
                 <li><a href="#final">Final Design</a></li>
                 <li><a href="#reflection">Reflection</a></li>
             </ul>
@@ -89,8 +89,7 @@ gtag('config', 'UA-113651462-1');
     <div id="brief" class="section-overview"><img src="../img/works/dslab/overview.jpg" alt="project overview"> </div>
         <section class="section-detail-layout container overview">
             <div class="col-sm-12">
-                <p>Digital Scholar Lab (DSLab) is a Gale product for digital humanists and scholars, which offers solutions and possibilities to the most common challenges in the digital humanities. It has three key features - Create Content Sets, Analyze Documents, and Manage and Share.</p>
-                <p>During the summer, I focused on designing interactive visualization of sentiment analysis and document clustering results for the DSLab analysis tools.</p>
+                <p>Digital Scholar Lab (DSLab) is a Gale product for digital humanists and scholars, which offers solutions and possibilities to the most common challenges in the digital humanities. During the summer, I focused on designing interactive visualization of sentiment analysis and document clustering results for the DSLab analysis tools.</p>
                 <p> <strong> <i> 2018 Summer UX Intern @ Gale, Cengage Learning | Mentor: Thomas Piggott (Senior UX Designer)| Duration: June, 2018 - Aug., 2018 | Tools: Axure, Sketch </i></strong></p>
             </div>
         </section>
@@ -114,7 +113,7 @@ gtag('config', 'UA-113651462-1');
                     
                 </div>
                 <div class="col-sm-12">
-                    <h3>There are a lot of ways to apply sentiment analysis. How can Digital Scholar Lab help users with different level of coding ability to analyze materials and visualize results according to user scenarios?</h3>
+                    <h3>There are lots of ways to apply sentiment analysis. How can Digital Scholar Lab help users with different level of coding ability to analyze materials and visualize results according to user scenarios?</h3>
                 </div>
             </div>
         </section>
@@ -212,7 +211,7 @@ gtag('config', 'UA-113651462-1');
                 </div>
             </div>
         </section>
-        <section id="iteration" class="section-detail-layout container">
+        <!-- <section id="iteration" class="section-detail-layout container">
             <h2>Major Iterations</h2>
             <p>I went through 2 rounds design evaluation with data visualization and digital humanity specialists major iterations, and several rounds evaluation with senior designer, PM and tech team.</p>
             <h3>Show overall sentiment of a content set</h3>
@@ -225,8 +224,6 @@ gtag('config', 'UA-113651462-1');
                     </ul>
                 </div>
             </div>
-        <!-- </section> -->
-         <!-- <section class="section-detail-layout container"> -->
             <div style="height:3em;"></div>
             <h3>Show sentiment analysis results of a document at section level</h3>
             <div class="row">
@@ -238,16 +235,44 @@ gtag('config', 'UA-113651462-1');
                     </ul>
                 </div>
             </div>
-        </section>
+        </section> -->
         
         
-
-      
         <section id="final" class="section-detail-layout container">
             <h2>Final Design</h2>
             <h3>Understand sentiment of text at different levels with data visualization.</h3>
 
+            
             <p class="sub-title">Challenge 1</p>
+            <h3>Discern the sentiment of each document in a content set at section (sentence, paragraph, or other user defined chunks) level.</h3>
+            <div class="row">
+                <img class="col-xs-12" src="../img/works/dslab/doc.png" alt="document level"/>
+                <p class="col-xs-12">
+                    The visualization shows the overall sentiment distribution, key sentiment words and sentiment change analyzed by section of each document in the whole content set. User can click each card to view the detail of the document within content.</strong>
+                </p>
+            </div>
+
+            <div class="row">
+                <img class="col-xs-12" src="../img/works/dslab/overlay.png" alt="overall"/>
+                <p class="col-xs-12">
+                    On the document/article page, a visualization summary panel is added under the existing DOC EXPLORER. The visualization contains three parts, <strong>the sentiment overlay, the overall sentiment, and the sentiment development of the document.</strong> The sentiment overlay will highlight the document with corresponding colors by chunk. The overall sentiment shows the number of chunks of the polarity levels. The sentiment development has a zoom-in view of the sentiment development of the current page and a scope controller showing the development of the whole document and a sliding window which can direct to the specific page.
+                </p>
+            </div>
+            <h4>Iterations</h4>
+            <div class="row gray-bg">
+                <img class="col-xs-12" src="../img/works/dslab/iteration4.png" alt="iteration1"/>
+                <div class="col-xs-12">
+                    <ul>
+                    <li>I finally decided to mark the document <strong>by section</strong> in stead of by keywords, considering user scenario and technical limitation since it's hard to get an accurate estimation of the emotion of a word and the emotion of a word can usually be different according to different time, culture and context.</li>
+                    <li>During evaluation, users found that<strong> marking the document </strong> to connect analysis with the content was a pretty novel way to understand a document, and especially helpful for pedagogical purpose to help students to better understand how sentiment analysis works.</li>
+                    <!-- <li>When the document is long, the side panel may not be perfect to fit the visualization.</li> -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+      
+        <section class="section-detail-layout container">
+            <p class="sub-title">Challenge 2</p>
             <h3>Discern the overall sentiment of a content set of a topic or event.</h3>
             <div class="row">
                 <img class="col-xs-12" src="../img/works/dslab/overall.png" alt="overall"/>
@@ -268,7 +293,7 @@ gtag('config', 'UA-113651462-1');
             </div> -->
         </section>
         <section class="section-detail-layout container">
-            <p class="sub-title">Challenge 2</p>
+            <p class="sub-title">Challenge 3</p>
             <h3>Know the sentiment overtime of a topic or event by analyzing a set of sequential documents.</h3>
             <div class="row">
                 <img class="col-xs-12" src="../img/works/dslab/change.png" alt="sequntial documents"/>
@@ -288,33 +313,8 @@ gtag('config', 'UA-113651462-1');
                 </div>
             </div> -->
         </section>
-        <section class="section-detail-layout container">
-            <p class="sub-title">Challenge 3</p>
-            <h3>Discern the sentiment of each document in a content set at section (sentence, paragraph, or other user defined chunks) level.</h3>
-            <div class="row">
-                <img class="col-xs-12" src="../img/works/dslab/doc.png" alt="document level"/>
-                <p class="col-xs-12">
-                    The visualization shows the overall sentiment distribution, key sentiment words and sentiment change analyzed by section of each document in the whole content set. User can click each card to view the detail of the document within content.</strong>
-                </p>
-            </div>
+        
 
-            <div class="row">
-                <img class="col-xs-12" src="../img/works/dslab/overlay.png" alt="overall"/>
-                <p class="col-xs-12">
-                    On the document/article page, a visualization summary panel is added under the existing DOC EXPLORER. The visualization contains three parts, <strong>the sentiment overlay, the overall sentiment, and the sentiment development of the document.</strong> The sentiment overlay will highlight the document with corresponding colors by chunk. The overall sentiment shows the number of chunks of the polarity levels. The sentiment development has a zoom-in view of the sentiment development of the current page and a scope controller showing the development of the whole document and a sliding window which can direct to the specific page.
-                </p>
-            </div>
-            <!-- <h4>Iterations</h4>
-            <div class="row gray-bg">
-                <img class="col-xs-12" src="../img/works/dslab/iteration4.png" alt="iteration1"/>
-                <div class="col-xs-12">
-                    <ul>
-                    <li>During evaluation, users found it was a pretty novel way to understand a document, and can help students to better understand how sentiment analysis works.</li>
-                    <li>But when the document is long, the side panel may not be perfect to fit the visualization.</li>
-                    </ul>
-                </div>
-            </div> -->
-        </section>
         <section class="section-detail-layout container">
             <p class="sub-title">Challenge 4</p>
             <h3>Set and adjust text clean parameters for sentiment analysis.</h3>
@@ -354,7 +354,7 @@ gtag('config', 'UA-113651462-1');
                 <li><a target="_blank" href="https://dribbble.com/_yuewang_"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
                 <li><a target="_blank" href="https://github.com/ClorisYue"><i class="fa fa-github" aria-hidden="true"></i></a></li>
             </ul>
-            <p class="copy-right"> &copy; 2018 Designed & Coded by Yue Wang. All Rights Reserved.</p>
+            <p class="copy-right"> &copy; 2017-2019 Designed & Coded by Yue Wang. </p>
         </footer>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
