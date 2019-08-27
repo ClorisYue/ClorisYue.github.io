@@ -360,6 +360,15 @@ section.brief {
   margin-top: .5em;
 }
 
+
+/**/
+.illustration img{
+  width: 100%;
+}
+.illustration .row{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 /* footer */
 
 .main-footer {
