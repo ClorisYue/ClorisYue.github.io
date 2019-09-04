@@ -97,6 +97,14 @@
   padding-top: 2%;
 }
 
+.eatjoy .video-text{
+  position: relative;
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*left: */
+  transform: translate(0, 50%);
+}
+
 .concept-overview .row{
   margin-top: 64px;
 }
@@ -113,6 +121,7 @@
   font-weight: 600;
   line-height: 2em;
 }
+
 .work-detail h3 {
   /*padding-bottom: 1em;*/
   margin-top: 0;
@@ -249,7 +258,7 @@
 }
 
 /*Eatjoy*/
-.eatjoy h2 {
+.work-detail.eatjoy .section-title {
   color: #91CEAD;
 }
 .eatjoy #final div h4{
