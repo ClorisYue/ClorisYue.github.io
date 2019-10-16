@@ -75,55 +75,54 @@
   </section>
 
   <section class="section-detail-layout container overview">
+    <div >
+        <p>ECC-ATS is an internal system produced for <strong>Midea Group</strong>, Guangdong, China, a leading electronic appliance company. It aims to help testing staffs reduce manual and repetitive work while conducting functional tests on electronic control boards. As my <strong>capstone project at Sun Yat-sen University</strong>, I worked with the team in the early design and development of the system.</p>
+        <p><a href="https://youtu.be/ouBJhUfgEI0">View Demo</a></p>
+    </div>
     <div class="row">
-      <div class="col-sm-4">
-        <h4>Time: Oct. 2016 - July 2017</h4>
-        <p>Capstone project designed for Midea Group, Guangdong, China. It's being used and still under mantainance and updating.</p>
-      </div>
-      <div class="col-sm-4">
-        <h4>Contributions:
-		    	</h4>
-        <p>User research, Prototyping, Usability testing, Data visualization, UI design, Front-end development (Vue.js & ElementUI & Socket.IO)</p>
-      </div>
-      <div class="col-sm-4">
-        <h4>Tutor: Qing Wang</h4>
-        <p>Other teammates: Yuxiang Wang, Jinjin Tao, Guocheng Zhou, Yanhao Xiao, Taotao Xiao</p>
-      </div>
+        <div class="col-sm-6">
+            <p><strong>UX Engineer | Oct. 2016 - July 2017</strong></p>
+            <p><strong>Contribution:</strong> UX&UI design and participated in front-end development (Vue.js, ElementUI, Socket.IO)</p>
+        </div>
+        <div class="col-sm-6">
+            <p><strong>Mentor:</strong> Qing Wang</p>
+            <p><strong>Team:</strong> Yuxiang Wang, Jinjin Tao, Guocheng Zhou, Yanhao Xiao, Taotao Xiao</p>
+        </div>
     </div>
   </section>
 
   <section class="section-detail-layout container">
     <h3 class="">00. What's ECC-ATS? </h3>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <p class="strong">ECC-ATS - Electronic Control Cloud Auto Test System</p>
         <p>Designed for testers to test the functionality of electronic control board automatically, manage, check and analyze the testing statistics. It contains tester box, EA-control client and EA-control server.
         </p>
       </div>
-      <div class="col-md-6">
-        <p><a href="https://youtu.be/ouBJhUfgEI0">View Version0 Demo</a></p>
+      <div class="col-md-8 col-md-offset-2">
         <img src="../img/works/ats/ats.jpg" alt="ats structure">
         <p class="notation">Fig. ECC-ATS Structure</p>
       </div>
-      <div class="col-md-6">
-        <p> Electronic control board is the core control module of household appliances.
-          <br> Tester box is provided by ECC, connecting with the electronic control board under testing. It receives executable testing script and generates electronic signal to simulate how to control the board by pressing buttons.And it receives outputs
-          of the control board and returns these statistics to sever and be visualized on the website.</p>
+      <div class="col-md-12">
+        <p> Electronic control board is the core control module of household appliances. Tester box is provided by ECC, connecting with the electronic control board under testing. It receives executable testing script and generates electronic signal to simulate how to control the board by pressing buttons.And it receives outputs of the control board and returns these statistics to sever and be visualized on the website.</p>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-8 col-md-offset-2">
         <img src="../img/works/ats/howitwork.png" alt="how ats works">
         <p class="notation">Fig. How ATS works</p>
       </div>
+      
     </div>
   </section>
 
   <section class="section-detail-layout container">
     <h3>01. User Research</h3>
     <div class="row">
-      <div class="col-md-offset-1 col-md-10">
+      <div class="col-md-offset-2 col-md-8">
         <img alt="user needs analysis" src="../img/works/ats/needs.png" />
         <p class="notation">Fig. User needs analysis</p>
-        <p>According to user research and need analysis, users can be divided into two roles - tester and manager, which seperates the management and test functions. The detailed needs can be mapped into the following system structure.</p>
+      </div>
+      <div class="col-md-12">
+        <p>According to user research and needs analysis, users can be divided into two roles - tester and manager, which separates the management and test functions. The detailed needs can be mapped into the following system structure.</p>
       </div>
     </div>
   </section>
@@ -143,13 +142,12 @@
       <div class="col-md-10 col-md-offset-1">
         <img alt="workflow1" src="../img/works/ats/workflow1.png" />
         <p class="notation">Fig. The workflow for the whole system </p>
-        <p>The workflow is easy to learn and operate. But the logic of automatic testing is complicated whcih is shown in the following picture.</p>
       </div>
-      <div class="col-md-10 col-md-offset-1">
+      <div class="col-md-12"><p>The workflow is easy to learn and operate. But the logic of automatic testing is complicated which is shown in the following picture. Automatic testing is the key to the system. Our goal is to hide this complicated confirmation, parsing, connection process, and provide a clear interface to users with clear guidance and hints.</p></div>
+      <div class="col-md-8 col-md-offset-2">
         <img alt="workflow of creating test" src="../img/works/ats/workflow2.png" />
         <p class="notation">Fig. The logic of automatic testing.</p>
-        <p>Automatic testing is the key to the system. Our goal is to hide this complicated confirmation, parsing, connection process, and provide a clear interface to users with clear guidance and hints.</p>
-      </div>
+      </div>   
     </div>
   </section>
 
@@ -157,10 +155,9 @@
     <h3>03. Real-time Data Visualization</h3>
     <div class="row">
       <div class="col-md-6">
-        <p>As mentioned in the information architecture section, there are four tyoes of content in the detailed information page. The most important section is the interactive real-time waveform chart. Statistics can be divided into analog and digital signals.
-          For digital signal, we used square wave referring to the oscilloscope. And considering their needs of: </p>
+        <p>As mentioned in the information architecture section, there are four types of content in the detailed information page. The most important section is the interactive real-time waveform chart. Statistics can be divided into analog and digital signals. For digital signal, we used square wave referring to the oscilloscope. And considering their needs of: </p>
         <ul>
-          <li>Multiselecting and presenting these signals in order. </li>
+          <li>Multi-selecting and presenting these signals in order. </li>
           <li>Linking multiple charts to compare the relationship among some signals. </li>
           <li>Measuring pulse width, periods, frequency, duty circle and other related statistics. </li>
         </ul>
@@ -169,7 +166,7 @@
         <img alt="real-time data visualization" src="../img/works/ats/vis.png" />
       </div>
       <div class="col-md-6">
-        <p>The last part is test report, every row represents a step from the uploaded test execl, including input parameters and constrains which are used for deciding whether this step is passed. Also, corresponding outputs should be fill into each row.
+        <p>The last part is test report, every row represents a step from the uploaded test excel, including input parameters and constrains which are used for deciding whether this step is passed. Also, corresponding outputs should be fill into each row.
           And this table can be exported into an editable Excel file.</p>
       </div>
       <div class="col-md-6">
@@ -182,19 +179,18 @@
   <section class="section-detail-layout container">
     <h3>04. Exception Analysis</h3>
     <div class="row">
-      <div class="colmd-offset-1 col-md-10">
+      <div class="col-md-offset-1 col-md-10">
         <img alt="real-time data visualization" src="../img/works/ats/execption.png" />
         <p class="notation">Table of exception analysis</p>
-        <p>How to deal with execeptions is important to provide stable user experience. After analysis, execptions are most possible occur between the client and server side, and the tester box and server due to communication interruption. I designed execption
-          solutions considering reducing user operations, and allowing user to notice and control the situation.</p>
       </div>
+      <div class="col-md-12"><p>How to deal with exceptions is important to provide stable user experience. After analysis, exceptions are most possible occur between the client and server side, and the tester box and server due to communication interruption. I designed exception solutions considering reducing user operations, and allowing user to notice and control the situation.</p></div>
     </div>
   </section>
 
   <section class="container section-detail-layout work-detail-footer">
     <div class="row">
-      <a class="col-xs-6" href="ava.html">&lt;  AVA</a>
-      <a class="col-xs-6" href="its.html">Contextual Inqury &gt;</a>
+      <a class="col-xs-6" href="icfe.html">&lt;  In Context for Educators</a>
+      <a class="col-xs-6" href="dslab.html">DSLab Visualization &gt;</a>
     </div>
   </section>
 
