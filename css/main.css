@@ -364,6 +364,7 @@ section.brief {
 /**/
 .illustration img{
   width: 100%;
+  margin-bottom: 1em;
 }
 .illustration .row{
   padding-top: 15px;
