@@ -340,3 +340,19 @@
   text-align: center;
   list-style-position: inside;
 }
+
+/*graphic design*/
+
+.graphic .section-detail-layout div img {
+  width: 100%;
+  max-width: 100% !important;
+  height: auto;
+}
+
+.graphic .posters>div {
+  margin-bottom: 2em;
+}
+
+.graphic .posters>div h4{
+  margin-top: 2em;
+}
