@@ -159,6 +159,7 @@ p::-moz-selection {
 .skill-card p {
   font-size: 1em;
   line-height: 2em;
+  margin-bottom: 1.5em;
 }
 
 .skill-card:nth-child(1) div, 
@@ -199,9 +200,11 @@ p::-moz-selection {
 }
 
 section.brief {
-  position: absolute;
+  /*heigt:900px;
+  position: absolute;*/
   top: 18%;
   right: 3%;
+  padding-bottom: 180px;
 }
 
 .hero-img {
@@ -213,7 +216,7 @@ section.brief {
   position  : absolute;
   top       : 15%;
   left      : 10%;
-  width     : 60%;
+  width     : 70%;
   margin    : 0 auto;
   padding   : 5%;
 }
@@ -231,10 +234,11 @@ section.brief {
 }
 .works .work-item {
   margin-top: 10%;
-  margin-bottom: 25%;
-  height: 55vh;
+  margin-bottom: 15%;
+/*  height: 55vh;*/
   min-height: 40rem;
-  max-height: 46rem;
+/*  max-height: 46rem;*/
+  padding: 20pt 0 0 0;
 }
 
 .works .work-item:nth-child(odd) {
@@ -269,6 +273,10 @@ section.brief {
 .works .work-item:nth-child(4) img{
   top: 2em;
 }
+.works .work-item.faitw, .works .work-item.faitm {
+  background-color: #ccc;
+}
+
 .works .work-item.dslab {
   background-color: #445989;
 }
@@ -351,11 +359,11 @@ section.brief {
 .tags span {
   background: white;
   display: inline-block;
-  padding: 0.4em 1.2em;
+  padding: 0.4em 1em;
   border-radius: 20px;
   /*box-shadow: 0 2px 20px rgba(215, 228, 235, 0.73);*/
   color: #333;
-  margin-right: 1em;
+  margin-right: .4em;
   margin-bottom: .5em;
   margin-top: .5em;
 }
