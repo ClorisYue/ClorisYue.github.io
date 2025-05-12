@@ -74,6 +74,9 @@
 	
 }
 @media screen and (max-width: 480px) {
+	section.brief {
+    	padding-top: 25%;
+	}
 	.section-layout {
 		padding: 120px 10% 20px 10%;
 	}

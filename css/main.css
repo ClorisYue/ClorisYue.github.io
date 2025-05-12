@@ -10,6 +10,9 @@
 .margintop {
   margin-top: 8%;
 }
+.works .theme-text {
+  padding-top:5%;
+}
 .theme-text {
   color : #689ad0;
 }
@@ -41,7 +44,7 @@ a.disabled {
 
 .section-layout {
   width   : 100%;
-  padding : 180px 15% 0 15%;
+  padding : 10% 15% 0 15%;
 }
 
 .center {
@@ -204,7 +207,7 @@ section.brief {
   position: absolute;*/
   top: 18%;
   right: 3%;
-  padding-bottom: 180px;
+  padding-top: 15%;
 }
 
 .hero-img {
@@ -212,13 +215,13 @@ section.brief {
 }
 
 .intro-text {
-  z-index   : 10;
-  position  : absolute;
-  top       : 15%;
-  left      : 10%;
-  width     : 70%;
+/*  z-index   : 10;*/
+/*  position  : absolute;*/
+/*  top       : 15%;*/
+/*  left      : 10%;*/
+/*  width     : 70%;*/
   margin    : 0 auto;
-  padding   : 5%;
+/*  padding   : 5%;*/
 }
 
 
@@ -288,7 +291,7 @@ section.brief {
 }
 .works .work-item.ava {
   background-color: #4A4A4A;
-  margin-bottom: 20%;
+/*  margin-bottom: 20%;*/
 }
 .work-item img {
   width          : 100%;
